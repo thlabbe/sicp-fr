@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+    <filter enabled="true" className="org.omegat.filters2.html2.HTMLFilter2">
+        <files targetEncoding="UTF-8" targetFilenamePattern="${filename}" sourceFilenameMask="*.htm"/>
+        <files targetEncoding="UTF-8" targetFilenamePattern="${filename}" sourceFilenameMask="*.html"/>
+        <files targetEncoding="UTF-8" targetFilenamePattern="${filename}" sourceFilenameMask="*.xhtml"/>
+        <files targetEncoding="UTF-8" targetFilenamePattern="${filename}" sourceFilenameMask="*.xht"/>
+        <option value="false" name="compressWhitespace"/>
+        <option value="" name="ignoreTags"/>
+        <option value="true" name="paragraphOnBr"/>
+        <option value="false" name="removeComments"/>
+        <option value="IFHEADER" name="rewriteEncoding"/>
+        <option value="http-equiv=refresh,name=robots,name=revisit-after,http-equiv=expires,http-equiv=content-style-type,http-equiv=content-script-type" name="skipMeta"/>
+        <option value="" name="skipRegExp"/>
+        <option value="true" name="translateButtonValue"/>
+        <option value="false" name="translateHref"/>
+        <option value="true" name="translateHreflang"/>
+        <option value="true" name="translateLang"/>
+        <option value="false" name="translateSrc"/>
+        <option value="true" name="translateValue"/>
+    </filter>
+</filters>
