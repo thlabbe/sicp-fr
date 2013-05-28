@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.2" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.2_2" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -510,6 +510,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In programming, we deal with two kinds of elements:</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="Didier" changedate="20130528T134225Z">
+        <seg>In programming, we deal with two kinds of elements:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In programming, we deal with two kinds of elements: &lt;a0&gt;&lt;/a0&gt;procedures and &lt;a1&gt;&lt;/a1&gt;data.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130514T052041Z">
@@ -616,8 +624,8 @@
       <tuv lang="EN-US">
         <seg>Structure and Interpretation of Computer Programs</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T152708Z">
-        <seg>Structure et interprétation des programmes informatiques</seg>
+      <tuv lang="FR-FR" changeid="Didier" changedate="20130528T134236Z">
+        <seg>Structure et interprétation des programmes informatiques, modifié par Didier</seg>
       </tuv>
     </tu>
     <tu>
@@ -758,6 +766,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>[Go to &lt;s0&gt;first, previous&lt;/s0&gt;&lt;s1&gt;&lt;s2&gt;, &lt;/s2&gt;&lt;a3&gt;next&lt;/a3&gt;&lt;/s1&gt; page&lt;s4&gt;;</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="Didier" changedate="20130528T134153Z">
+        <seg>[Go to &lt;s0&gt;first, previous&lt;/s0&gt;&lt;s1&gt;&lt;s2&gt;, &lt;/s2&gt;&lt;a3&gt;next&lt;/a3&gt;&lt;/s1&gt; page&lt;s4&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>[Go to &lt;s0&gt;first, previous&lt;/s0&gt;&lt;s1&gt;&lt;s2&gt;, &lt;/s2&gt;&lt;a3&gt;next&lt;/a3&gt;&lt;/s1&gt; page&lt;s4&gt;;   &lt;/s4&gt;&lt;s5&gt;&lt;a6&gt;contents&lt;/a6&gt;&lt;/s5&gt;&lt;s7&gt;&lt;s8&gt;;   &lt;/s8&gt;&lt;a9&gt;index&lt;/a9&gt;&lt;/s7&gt;]</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T154343Z">
@@ -850,6 +866,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T154113Z">
         <seg>avec Julie Sussman</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>  &lt;/s4&gt;&lt;s5&gt;&lt;a6&gt;contents&lt;/a6&gt;&lt;/s5&gt;&lt;s7&gt;&lt;s8&gt;;</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="Didier" changedate="20130528T134200Z">
+        <seg>  &lt;/s4&gt;&lt;s5&gt;&lt;a6&gt;contents&lt;/a6&gt;&lt;/s5&gt;&lt;s7&gt;&lt;s8&gt;;</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
