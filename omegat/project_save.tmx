@@ -624,8 +624,8 @@
       <tuv lang="EN-US">
         <seg>Structure and Interpretation of Computer Programs</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="Didier" changedate="20130528T134236Z">
-        <seg>Structure et interprétation des programmes informatiques, modifié par Didier</seg>
+      <tuv lang="FR-FR" changeid="jchelary" changedate="20130608T144623Z">
+        <seg>Structure et interprétation des programmes informatiques</seg>
       </tuv>
     </tu>
     <tu>
