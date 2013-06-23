@@ -94,6 +94,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(+ (square x) (square y))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110258Z">
+        <seg>(+ (carré x) (carré y))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(+ (square x) (square y)))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110449Z">
+        <seg>(+ (carré x) (carré y)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(+ 137 349)</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T011149Z">
@@ -182,10 +198,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(define (&lt;&lt;e0&gt;name&lt;/e0&gt;&gt; &lt;&lt;e1&gt;formal parameters&lt;/e1&gt;&gt;) &lt;&lt;e2&gt;body&lt;/e2&gt;&gt;)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T104555Z">
+        <seg>(define (&lt;&lt;e0&gt;nom&lt;/e0&gt;&gt; &lt;&lt;e1&gt;paramètres formels&lt;/e1&gt;&gt;) &lt;&lt;e2&gt;corps&lt;/e2&gt;&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(define (f a)</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130350Z">
         <seg>(define (f a)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(define (square x) (* x x))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T104205Z">
+        <seg>(define (carré x) (* x x))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(define (square  x)        (*         x     x))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T104235Z">
+        <seg>(define (carré  x)        (*         x     x))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(define (sum-of-squares x y)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110440Z">
+        <seg>(define (somme-de-carrés x y)</seg>
       </tuv>
     </tu>
     <tu>
@@ -226,6 +274,46 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130340Z">
         <seg>(f 5)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(square (+ 2 5))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110129Z">
+        <seg>(carré (+ 2 5))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(square (square 3))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110138Z">
+        <seg>(carré (carré 3))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(square 21)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T105905Z">
+        <seg>(carré 21)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(sum-of-squares (+ a 1) (* a 2)))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110621Z">
+        <seg>(somme-de-carrés (+ a 1) (* a 2)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(sum-of-squares 3 4)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110457Z">
+        <seg>(somme-de-carrés 3 4)</seg>
       </tuv>
     </tu>
     <tu>
@@ -510,6 +598,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a2&gt;&lt;/a2&gt;Each special form has its own evaluation rule.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T102944Z">
+        <seg>&lt;a2&gt;&lt;/a2&gt;Chaque forme spéciale a sa propre règle d'évaluation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a3&gt;&lt;/a3&gt;&lt;a4&gt;&lt;/a4&gt;&lt;a5&gt;&lt;/a5&gt;Evaluating the definition creates this compound procedure and associates it with the name &lt;t6&gt;square&lt;/t6&gt;.&lt;a7&gt;&lt;s8&gt;&lt;s9&gt;12&lt;/s9&gt;&lt;/s8&gt;&lt;/a7&gt;</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T104519Z">
+        <seg>&lt;a3&gt;&lt;/a3&gt;&lt;a4&gt;&lt;/a4&gt;&lt;a5&gt;&lt;/a5&gt;L'évaluation de la définition créée cette procédure composée et l'associe au nom &lt;t6&gt;carré&lt;/t6&gt;.&lt;a7&gt;&lt;s8&gt;&lt;s9&gt;12&lt;/s9&gt;&lt;/s8&gt;&lt;/a7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;b0&gt;Figure 1.1:&lt;/b0&gt;  Tree representation, showing the value of each subcombination.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T125901Z">
@@ -550,6 +654,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;t1&gt;Define&lt;/t1&gt; is the only example of a special form that we have seen so far, but we will meet others shortly.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T102839Z">
+        <seg>&lt;t1&gt;Define&lt;/t1&gt; est le seul exemple de forme spéciale que nous ayons vu jusqu'ici mais nous en rencontrerons d'autres bientôt.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A critical aspect of a programming language is the means it provides for using &lt;a0&gt;&lt;/a0&gt;names to refer to computational objects.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130521T054324Z">
@@ -568,8 +680,8 @@
       <tuv lang="EN-US">
         <seg>A second advantage of prefix notation is that it extends in a straightforward way to allow combinations to be &lt;e0&gt;nested&lt;/e0&gt;, that is, to have combinations whose elements are themselves combinations:</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T085006Z">
-        <seg>Un autre avantage de la notation inversée est qu'on peut l'étendre très facilement pour autoriser les &lt;e0&gt;insertions&lt;/e0&gt; de combinaisons, c'est-à-dire pour avoir des combinaisons dont les éléments sont eux-mêmes des combinaisons :</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T103525Z">
+        <seg>Un autre avantage de la notation inversée est qu'on peut l'étendre très facilement pour autoriser les &lt;e0&gt;emboitements&lt;/e0&gt; de combinaisons, c'est-à-dire pour avoir des combinaisons dont les éléments sont eux-mêmes des combinaisons :</seg>
       </tuv>
     </tu>
     <tu>
@@ -598,10 +710,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Compound procedures are used in exactly the same way as primitive procedures.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110659Z">
+        <seg>Les procédures composées sont utilisées exactement de la même manière que les procédures primitives.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Contents</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T155128Z">
         <seg>Table des matières</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Definitions that associate names with values provide a limited means of abstraction.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T103800Z">
+        <seg>Les définitions qui associent des noms à des valeurs offrent un moyen limité d'abstraction.</seg>
       </tuv>
     </tu>
     <tu>
@@ -662,6 +790,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, &lt;e1&gt;x&lt;/e1&gt;&lt;s2&gt;2&lt;/s2&gt; + &lt;e3&gt;y&lt;/e3&gt;&lt;s4&gt;2&lt;/s4&gt; can be expressed as</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110250Z">
+        <seg>Par exemple, &lt;e1&gt;x&lt;/e1&gt;&lt;s2&gt;2&lt;/s2&gt; + &lt;e3&gt;y&lt;/e3&gt;&lt;s4&gt;2&lt;/s4&gt; peut être exprimé ainsi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, evaluating</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T125141Z">
@@ -694,6 +830,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Having defined &lt;t0&gt;square&lt;/t0&gt;, we can now use it:</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T105742Z">
+        <seg>Nous avons défini &lt;t0&gt;carré&lt;/t0&gt;, nous pouvons maintenant l'utiliser :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here are further examples of the use of &lt;t0&gt;define&lt;/t0&gt;:</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130522T151644Z">
@@ -714,6 +858,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T043559Z">
         <seg>Dans un langage interactif tel que Lisp, parler de la valeur d'une expression telle que &lt;t3&gt;(+ x 1)&lt;/t3&gt; sans donner d'information au sujet de l'environnement qui définisse le symbole &lt;t4&gt;x&lt;/t4&gt; (ou même le symbole &lt;t5&gt;+&lt;/t5&gt;) n'a pas de sens.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In comparison with most other programming languages, Lisp has a very simple syntax; that is, the evaluation rule for expressions can be described by a simple general rule together with specialized rules for a small number of special forms.&lt;a4&gt;&lt;s5&gt;&lt;s6&gt;11&lt;/s6&gt;&lt;/s5&gt;&lt;/a4&gt;</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T103226Z">
+        <seg>Comparé à d'autres langages de programmation, Lisp a une syntaxe très simple ; la règle d'évaluation des expressions peut être décrite à l'aide d'une règle générale simple et de règles spéciales pour un petit nombre de formes spéciales.&lt;a4&gt;&lt;s5&gt;&lt;s6&gt;11&lt;/s6&gt;&lt;/s5&gt;&lt;/a4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -782,6 +934,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Indeed, one could not tell by looking at the definition of &lt;t0&gt;sum-of-squares&lt;/t0&gt; given above whether &lt;t1&gt;square&lt;/t1&gt; was built into the interpreter, like &lt;t2&gt;+&lt;/t2&gt; and &lt;t3&gt;*&lt;/t3&gt;, or defined as a compound procedure.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110833Z">
+        <seg>En fait, il est impossible de dire en regardant la définition de &lt;t0&gt;somme-de-carrés&lt;/t0&gt; donnée plus haut si &lt;t1&gt;carré&lt;/t1&gt; est inclus dans l'interpréteur comme &lt;t2&gt;+&lt;/t2&gt; et &lt;t3&gt;*&lt;/t3&gt; ou défini en tant que procédure composée.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is we humans who get confused by still relatively simple expressions such as</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T085129Z">
@@ -802,6 +962,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T154205Z">
         <seg>McGraw-Hill Book Company</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Nesting of combinations provides a means of combining operations.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T103651Z">
+        <seg>L'emboitement de combinaisons offre une manière de combiner les opérations.</seg>
       </tuv>
     </tu>
     <tu>
@@ -832,8 +1000,8 @@
       <tuv lang="EN-US">
         <seg>Notice how succinctly the idea of recursion can be used to express what, in the case of a deeply nested combination, would otherwise be viewed as a rather complicated process.</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T125133Z">
-        <seg>Remarquez la manière succincte avec laquelle l'idée de récursion peut être utilisée pour exprimer ce qui, dans le cas de combinaisons fortement imbriquées, serait considéré comme un processus plutôt complexe.</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T103617Z">
+        <seg>Remarquez la manière succincte avec laquelle l'idée de récursion peut être utilisée pour exprimer ce qui, dans le cas de combinaisons profondément emboitées, serait considéré comme un processus plutôt complexe.</seg>
       </tuv>
     </tu>
     <tu>
@@ -842,6 +1010,30 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T043730Z">
         <seg>Remarquez que la règle d'évaluation ci-dessus ne prend pas en compte les définitions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Now we can use &lt;t0&gt;sum-of-squares&lt;/t0&gt; as a building block in constructing further procedures:</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110611Z">
+        <seg>Nous pouvons utiliser &lt;t0&gt;somme-de-carrés&lt;/t0&gt; comme bloc pour construire d'autres procédures :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Now we will learn about &lt;a0&gt;&lt;/a0&gt;&lt;e1&gt;procedure definitions&lt;/e1&gt;, a much more powerful abstraction technique by which a compound operation can be given a name and then referred to as a unit.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T104028Z">
+        <seg>Nous allons maintenant voir les &lt;a0&gt;&lt;/a0&gt;&lt;e1&gt;définitions de procédures&lt;/e1&gt;, une technique d'abstraction bien plus puissante avec laquelle on peut nommer une opération composée puis faire référence à celle-ci en tant que tout.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Numbers and arithmetic operations are primitive data and procedures.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T103452Z">
+        <seg>Les nombres et les opérations arithmétiques sont respectivement des données et procédures primitives.</seg>
       </tuv>
     </tu>
     <tu>
@@ -910,10 +1102,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Such exceptions to the general evaluation rule are called &lt;e0&gt;special forms&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T102708Z">
+        <seg>Ce genre d'exceptions à la règle générale d'évaluation sont appelées des &lt;e0&gt;formes spéciales&lt;/e0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;&lt;e0&gt;name&lt;/e0&gt;&gt; is a symbol to be associated with the procedure definition in the environment.&lt;a1&gt;&lt;s2&gt;&lt;s3&gt;13&lt;/s3&gt;&lt;/s2&gt;&lt;/a1&gt; The &lt;a4&gt;&lt;/a4&gt;&lt;a5&gt;&lt;/a5&gt;&lt;&lt;e6&gt;formal parameters&lt;/e6&gt;&gt; are the names used within the body of the procedure to refer to the corresponding arguments of the procedure.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T104741Z">
+        <seg>Le &lt;&lt;e0&gt;nom&lt;/e0&gt;&gt; est un symbole à associer à la définition de procédure dans l'environnement.&lt;a1&gt;&lt;s2&gt;&lt;s3&gt;13&lt;/s3&gt;&lt;/s2&gt;&lt;/a1&gt; Les &lt;a4&gt;&lt;/a4&gt;&lt;a5&gt;&lt;/a5&gt;&lt;&lt;e6&gt;paramètres formels&lt;/e6&gt;&gt; sont les noms utilisés dans le corps de la procédure pour faire référence aux arguments correspondants de la procédure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;a5&gt;&lt;/a5&gt;terminal nodes (that is, nodes with no branches stemming from them) represent either operators or numbers.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T125522Z">
         <seg>Les &lt;a5&gt;&lt;/a5&gt;nœuds terminaux (c'est-à-dire les nœuds dont ne partent aucune branche) représentent soit des opérateurs, soit des nombres.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;a7&gt;&lt;/a7&gt;&lt;a8&gt;&lt;/a8&gt;&lt;&lt;e9&gt;body&lt;/e9&gt;&gt; is an expression that will yield the value of the procedure application when the formal parameters are replaced by the actual arguments to which the procedure is applied.&lt;a10&gt;&lt;s11&gt;&lt;s12&gt;14&lt;/s12&gt;&lt;/s11&gt;&lt;/a10&gt; The &lt;&lt;e13&gt;name&lt;/e13&gt;&gt; and the &lt;&lt;e14&gt;formal parameters&lt;/e14&gt;&gt; are grouped within &lt;a15&gt;&lt;/a15&gt;parentheses, just as they would be in an actual call to the procedure being defined.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T105021Z">
+        <seg>Le &lt;a7&gt;&lt;/a7&gt;&lt;a8&gt;&lt;/a8&gt;&lt;&lt;e9&gt;corps&lt;/e9&gt;&gt; est une expression qui produira la valeur de l'application de la procédure quand les paramètres formels sont remplacés par les arguments actuels sur lesquels la procédure va s'appliquer.&lt;a10&gt;&lt;s11&gt;&lt;s12&gt;14&lt;/s12&gt;&lt;/s11&gt;&lt;/a10&gt; Le &lt;&lt;e13&gt;nom&lt;/e13&gt;&gt; et les &lt;&lt;e14&gt;paramètres formels&lt;/e14&gt;&gt; sont regroupés entre &lt;a15&gt;&lt;/a15&gt;parenthèses, de la même manière que si la fonction définie était réellement appelée.</seg>
       </tuv>
     </tu>
     <tu>
@@ -942,6 +1158,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The general form of a procedure definition is</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T104534Z">
+        <seg>La forme générale d'une définition de procédure est</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The interpreter makes this step-by-step program construction particularly convenient because name-object associations can be created incrementally in successive interactions.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123819Z">
@@ -966,6 +1190,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The procedure represents the operation of multiplying something by itself.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T104358Z">
+        <seg>La procédure représente l'opération qui consiste à multiplier une chose par elle même.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The resulting indentations display clearly the structure of the expression.&lt;a2&gt;&lt;s3&gt;&lt;s4&gt;6&lt;/s4&gt;&lt;/s3&gt;&lt;/a2&gt;</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130521T050523Z">
@@ -974,10 +1206,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The thing to be multiplied is given a local name, &lt;t2&gt;x&lt;/t2&gt;, which plays the same role that a pronoun plays in natural language.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T104437Z">
+        <seg>La chose à multiplier a un nom local, &lt;t2&gt;x&lt;/t2&gt;, qui joue le même rôle qu'un pronom jouerai dans une langue naturelle.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The various kinds of expressions (each with its associated evaluation rule) constitute the &lt;a3&gt;&lt;/a3&gt;syntax of the programming language.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T103043Z">
+        <seg>Les différents types d'expressions (chacun associé à une règle d'évaluation) constituent la &lt;a3&gt;&lt;/a3&gt;syntaxe du langage de programmation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There is no limit (in principle) to the depth of such nesting and to the overall complexity of the expressions that the Lisp interpreter can evaluate.</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T085102Z">
-        <seg>Il n'y a aucune limite (en principe) à la profondeur de ce genre d'insertions ou à la complexité globale de l'expression que l'interpréteur Lisp peut évaluer.</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T103543Z">
+        <seg>Il n'y a aucune limite (en principe) à la profondeur de ce genre d'emboitement ou à la complexité globale de l'expression que l'interpréteur Lisp peut évaluer.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1062,6 +1310,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We begin by examining how to express the idea of ``squaring.'' We might say, ``To square something, multiply it by itself.'' This is expressed in our language as</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T104155Z">
+        <seg>Commençons par voir comment exprimer l'idée de « mettre au carré ». On peut dire, « Pour mettre quelque chose au carré, il faut multiplier cette chose par elle-même ». Dans notre langage ceci est exprimé de cette manière</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We can also use &lt;t0&gt;square&lt;/t0&gt; as a building block in defining other procedures.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110224Z">
+        <seg>Nous pouvons également utiliser &lt;t0&gt;carré&lt;/t0&gt; comme bloc pour définir d'autres procédures.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We can easily define a procedure &lt;t0&gt;sum-of-squares&lt;/t0&gt; that, given any two numbers as arguments, produces the sum of their squares:</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110432Z">
+        <seg>Nous pouvons facilement définir une procédure &lt;t0&gt;somme-de-carrés&lt;/t0&gt; qui, avec deux nombres comme arguments, produira la somme de leurs carrés :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We can help ourselves by writing such an expression in the form</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T085216Z">
@@ -1074,6 +1346,30 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T125253Z">
         <seg>Nous pouvons obtenir une image de ce processus en &lt;a0&gt;&lt;/a0&gt;représentant la combinaison sous la forme d'un &lt;a1&gt;&lt;/a1&gt;arbre, comme dans la figure &lt;a2&gt;1.1&lt;/a2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We can understand this in the following way:</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T104227Z">
+        <seg>Nous pouvons comprendre ceci de la manière suivante :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We have here a &lt;e0&gt;compound procedure&lt;/e0&gt;, which has been given the name &lt;t1&gt;square&lt;/t1&gt;.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T104308Z">
+        <seg>Nous avons ici une &lt;e0&gt;procédure composée&lt;/e0&gt; à qui le nom &lt;t1&gt;carré&lt;/t1&gt; a été donnée.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We have identified in Lisp some of the elements that must appear in any powerful programming language:</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T103311Z">
+        <seg>Nous avons identifié dans Lisp quelques éléments qui doivent apparaitre dans n'importe quel langage de programmation puissant :</seg>
       </tuv>
     </tu>
     <tu>
