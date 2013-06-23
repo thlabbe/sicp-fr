@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.3" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.2_2" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(* (+ 2 (* 4 6))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T125142Z">
+        <seg>(* (+ 2 (* 4 6))</seg>
+      </tuv>
+    </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>(* 25 4 12)</seg>
@@ -70,6 +78,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(+ (* 6 6) (* 10 10))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130326Z">
+        <seg>(+ (* 6 6) (* 10 10))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(+ (- 10 7)</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T085221Z">
@@ -102,10 +118,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(+ 36 100)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130328Z">
+        <seg>(+ 36 100)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(+ 3 5)))</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T085220Z">
         <seg>(+ 3 5)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(+ 3 5 7))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T125143Z">
+        <seg>(+ 3 5 7))</seg>
       </tuv>
     </tu>
     <tu>
@@ -128,8 +160,8 @@
       <tuv lang="EN-US">
         <seg>(Later we will discover that they are really not so distinct.) Informally, data is ``stuff'' that we want to manipulate, and procedures are descriptions of the rules for manipulating the data.</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="jchelary" changedate="20130514T052206Z">
-        <seg>(Nous découvrirons plus tard que ces deux types d'éléments ne sont pas si disctincts que ça.) De manière informelle, les données sont les « trucs » que nous voulons manipuler et les procédures sont des descriptions des règles de manipulation des données.</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123618Z">
+        <seg>(Nous découvrirons plus tard que ces deux types d'éléments ne sont pas si distincts que ça.) De manière informelle, les données sont les « trucs » que nous voulons manipuler et les procédures sont des descriptions des règles de manipulation des données.</seg>
       </tuv>
     </tu>
     <tu>
@@ -142,10 +174,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(That is, &lt;t5&gt;(define x 3)&lt;/t5&gt; is not a combination.)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T044011Z">
+        <seg>(En d'autres termes, &lt;t5&gt;(define x 3)&lt;/t5&gt; n'est pas une combinaison).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(define (f a)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130350Z">
+        <seg>(define (f a)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(define circumference (* 2 pi radius))</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="jchelary" changedate="20130522T151738Z">
-        <seg>(define cinrconference (* 2 pi rayon))</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123435Z">
+        <seg>(define circonference (* 2 pi rayon))</seg>
       </tuv>
     </tu>
     <tu>
@@ -174,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(f 5)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130340Z">
+        <seg>(f 5)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1.1.1  Expressions</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130514T052655Z">
@@ -190,10 +246,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>1.1.3  Evaluating Combinations</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124402Z">
+        <seg>1.1.3 Évaluation de combinaisons</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1.1.4  Compound Procedures</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T042404Z">
+        <seg>1.1.4 Procédures composées</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1.1  The Elements of Programming</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T154432Z">
         <seg>1.1 Les éléments de la programmation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1.  Evaluate the subexpressions of the combination.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124611Z">
+        <seg>1. Évaluer les sous-expressions de la combinaison.</seg>
       </tuv>
     </tu>
     <tu>
@@ -222,6 +302,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>136</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130330Z">
+        <seg>136</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>19</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T085010Z">
@@ -238,6 +326,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>2.  Apply the procedure that is the value of the leftmost subexpression (the operator) to the arguments that are the values of the other subexpressions (the operands).</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124651Z">
+        <seg>2. Appliquer la procédure qui est la valeur de la sous-expression la plus à gauche (l'opérateur) aux arguments qui sont les valeurs des autres sous-expressions (les opérandes).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>25</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130351Z">
+        <seg>25</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>314.159</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130522T151725Z">
@@ -246,10 +350,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>441</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130402Z">
+        <seg>441</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>486</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T010834Z">
         <seg>486</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>49</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130400Z">
+        <seg>49</seg>
       </tuv>
     </tu>
     <tu>
@@ -290,6 +410,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T084532Z">
         <seg>75</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>81</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130359Z">
+        <seg>81</seg>
       </tuv>
     </tu>
     <tu>
@@ -382,6 +510,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;b0&gt;Figure 1.1:&lt;/b0&gt;  Tree representation, showing the value of each subcombination.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T125901Z">
+        <seg>&lt;b0&gt;Figure 1.1 :&lt;/b0&gt; Représentation par arbre, avec la valeur de chaque sous-combinaison.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;means of abstraction&lt;/s0&gt;, by which compound elements can be named and manipulated as units.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130514T051844Z">
@@ -400,8 +536,16 @@
       <tuv lang="EN-US">
         <seg>&lt;s0&gt;primitive expressions&lt;/s0&gt;, which represent the simplest entities the language is concerned with,</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="jchelary" changedate="20130514T051700Z">
-        <seg>Les &lt;s0&gt;expressions primitives&lt;/s0&gt; qui représentent les entitées les plus simples que le langage a à considérer,</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123647Z">
+        <seg>Les &lt;s0&gt;expressions primitives&lt;/s0&gt; qui représentent les entités les plus simples que le langage a à considérer,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;t0&gt;Define&lt;/t0&gt; is our language's simplest means of abstraction, for it allows us to use simple names to refer to the results of compound operations, such as the &lt;t1&gt;circumference&lt;/t1&gt; computed above.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123418Z">
+        <seg>&lt;t0&gt;Define&lt;/t0&gt; est la méthode d'abstraction la plus simple de notre langage car elle nous permet d'utiliser des noms simples pour faire référence au résultat d'opérations composées, telles que la &lt;t1&gt;circonférence&lt;/t1&gt; calculée plus haut.</seg>
       </tuv>
     </tu>
     <tu>
@@ -430,6 +574,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As a case in point, let us consider that, in evaluating combinations, the interpreter is itself following a procedure.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124543Z">
+        <seg>Considérons dans notre cas qu'en évaluant des combinaisons l'interpréteur suit lui aussi une procédure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As we shall see in chapter 3, the general notion of the environment as providing a context in which evaluation takes place will play an important role in our understanding of program execution.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T043704Z">
+        <seg>Comme nous le verrons au chapitre 3, la notion d'un environnement en tant que contexte dans lequel l'évaluation a lieu joue un rôle important dans notr compréhension de l'exécution d'un programme.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Cambridge, Massachusetts     London, England</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T154201Z">
@@ -446,10 +606,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each combination is represented by a &lt;a3&gt;&lt;/a3&gt;node with &lt;a4&gt;&lt;/a4&gt;branches corresponding to the operator and the operands of the combination stemming from it.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T125437Z">
+        <seg>Chaque combinaison est représentée par un &lt;a3&gt;&lt;/a3&gt;nœud &lt;a4&gt;&lt;/a4&gt;à partir duquel partent des branches correspondant à l'opérateur et les opérandes de la combinaison.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Even this simple rule illustrates some important points about processes in general.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124735Z">
+        <seg>Même cette règle simple illustre quelques points importants au sujet des processus en général.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Even with complex expressions, the interpreter always operates in the same basic cycle: It reads an expression from the terminal, evaluates the expression, and prints the result.</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="jchelary" changedate="20130521T050627Z">
-        <seg>Même avec des expressions complexes, l'intepréteur fonctionne toujours selon le même cycle de base : il lit l'expression à partir du terminal, il évalue cette expression et il affiche son résultat.</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123444Z">
+        <seg>Même avec des expressions complexes, l'interpréteur fonctionne toujours selon le même cycle de base : il lit l'expression à partir du terminal, il évalue cette expression et il affiche son résultat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -464,8 +640,8 @@
       <tuv lang="EN-US">
         <seg>Expressions representing numbers may be combined with an &lt;a0&gt;&lt;/a0&gt;expression representing a &lt;a1&gt;&lt;/a1&gt;&lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;&lt;a4&gt;&lt;/a4&gt;&lt;a5&gt;&lt;/a5&gt;primitive procedure (such as &lt;t6&gt;+&lt;/t6&gt; or &lt;t7&gt;*&lt;/t7&gt;) to form a compound expression that represents the application of the procedure to those numbers.</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T011141Z">
-        <seg>Les expressions qui représentent des nombres peuvent être combinées à l'aide d'une &lt;a0&gt;&lt;/a0&gt;expressions représentant une &lt;a1&gt;&lt;/a1&gt;&lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;&lt;a4&gt;&lt;/a4&gt;&lt;a5&gt;&lt;/a5&gt;procédure primitive (telle que &lt;t6&gt;+&lt;/t6&gt; ou &lt;t7&gt;*&lt;/t7&gt;) pour former une expression composée qui représente l'aplication d'une procédure à ces nombres.</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123534Z">
+        <seg>Les expressions qui représentent des nombres peuvent être combinées à l'aide d'une &lt;a0&gt;&lt;/a0&gt;expressions représentant une &lt;a1&gt;&lt;/a1&gt;&lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;&lt;a4&gt;&lt;/a4&gt;&lt;a5&gt;&lt;/a5&gt;procédure primitive (telle que &lt;t6&gt;+&lt;/t6&gt; ou &lt;t7&gt;*&lt;/t7&gt;) pour former une expression composée qui représente l'application d'une procédure à ces nombres.</seg>
       </tuv>
     </tu>
     <tu>
@@ -478,10 +654,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>First, observe that the first step dictates that in order to accomplish the evaluation process for a combination we must first perform the evaluation process on each element of the combination.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124831Z">
+        <seg>En premier, il faut observer que la première étape spécifie que pour accomplir le processus d'évaluation pour une combinaison, nous devons effectuer ce processus d'évaluation sur chaque élément de la combinaison.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, evaluating</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T125141Z">
+        <seg>Par exemple, l'évaluation de</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example:</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T011147Z">
         <seg>Par exemple :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance, evaluating &lt;t0&gt;(define x 3)&lt;/t0&gt; does not apply &lt;t1&gt;define&lt;/t1&gt; to two arguments, one of which is the value of the symbol &lt;t2&gt;x&lt;/t2&gt; and the other of which is 3, since the purpose of the &lt;t3&gt;define&lt;/t3&gt; is precisely to associate &lt;t4&gt;x&lt;/t4&gt; with a value.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T043947Z">
+        <seg>Par exemple, l'évaluation de &lt;t0&gt;(define x 3)&lt;/t0&gt; n'applique pas &lt;t1&gt;define&lt;/t1&gt; aux deux arguments dont l'un est le symbole &lt;t2&gt;x&lt;/t2&gt; et l'autre puisque la fonction de &lt;t3&gt;define &lt;/t3&gt; est précisément d'associer &lt;t4&gt;x&lt;/t4&gt; à une valeur.</seg>
       </tuv>
     </tu>
     <tu>
@@ -510,6 +710,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In an interactive language such as Lisp, it is meaningless to speak of the value of an expression such as &lt;t3&gt;(+ x 1)&lt;/t3&gt; without specifying any information about the environment that would provide a meaning for the symbol &lt;t4&gt;x&lt;/t4&gt; (or even for the symbol &lt;t5&gt;+&lt;/t5&gt;).</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T043559Z">
+        <seg>Dans un langage interactif tel que Lisp, parler de la valeur d'une expression telle que &lt;t3&gt;(+ x 1)&lt;/t3&gt; sans donner d'information au sujet de l'environnement qui définisse le symbole &lt;t4&gt;x&lt;/t4&gt; (ou même le symbole &lt;t5&gt;+&lt;/t5&gt;) n'a pas de sens.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In fact, the ``percolate values upward'' form of the evaluation rule is an example of a general kind of process known as &lt;a6&gt;&lt;/a6&gt;&lt;e7&gt;tree accumulation&lt;/e7&gt;.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T125834Z">
+        <seg>De fait, la « remontée des valeurs vers le haut » lors de l'évaluation est un exemple d'un type général de processus connu sous le nom de &lt;a6&gt;&lt;/a6&gt;accumulation ***&lt;e7&gt;&lt;/e7&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In general, computational objects may have very complex structures, and it would be extremely inconvenient to have to remember and repeat their details each time we want to use them.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130613T054110Z">
+        <seg>En général, les objets informatiques peuvent avoir des structures très complexes et il serait très peu pratique d'avoir à se souvenir et à reproduire leurs détails à chaque fois que nous voulons les utiliser.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In general, we shall see that recursion is a very powerful technique for dealing with hierarchical, treelike objects.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T125718Z">
+        <seg>D'une manière générale, nous verrons que la récursion est une technique très puissante pour traiter des objets hiérarchiques sous formes d'arbres.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In programming, we deal with two kinds of elements:</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="Didier" changedate="20130528T134225Z">
@@ -520,8 +752,8 @@
       <tuv lang="EN-US">
         <seg>In programming, we deal with two kinds of elements: &lt;a0&gt;&lt;/a0&gt;procedures and &lt;a1&gt;&lt;/a1&gt;data.</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="jchelary" changedate="20130514T052041Z">
-        <seg>La programation travaille sur deux types d'éléments : &lt;a0&gt;&lt;/a0&gt;les procédures et &lt;a1&gt;&lt;/a1&gt;les données.</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123623Z">
+        <seg>La programmation travaille sur deux types d'éléments : &lt;a0&gt;&lt;/a0&gt;les procédures et &lt;a1&gt;&lt;/a1&gt;les données.</seg>
       </tuv>
     </tu>
     <tu>
@@ -536,8 +768,16 @@
       <tuv lang="EN-US">
         <seg>In this chapter we will deal only with simple &lt;a0&gt;&lt;/a0&gt;&lt;a1&gt;&lt;/a1&gt;numerical data so that we can focus on the rules for building procedures.&lt;a2&gt;&lt;s3&gt;&lt;s4&gt;4&lt;/s4&gt;&lt;/s3&gt;&lt;/a2&gt; In later chapters we will see that these same rules allow us to build procedures to manipulate compound data as well.</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="jchelary" changedate="20130514T052651Z">
-        <seg>Dans ce chapitre nous nous intéresserons à des &lt;a0&gt;&lt;/a0&gt;&lt;a1&gt;&lt;/a1&gt;données numériques simples de manière à nous concentrer sur les rêgles de création des procédures.&lt;a2&gt;&lt;s3&gt;&lt;s4&gt;4&lt;/s4&gt;&lt;/s3&gt;&lt;/a2&gt; Dans les chapitres suivants nous verrons que les mêmes règles nous permettent de créer des procédures pour manipuler également des données composites.</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123611Z">
+        <seg>Dans ce chapitre nous nous intéresserons à des &lt;a0&gt;&lt;/a0&gt;&lt;a1&gt;&lt;/a1&gt;données numériques simples de manière à nous concentrer sur les règles de création des procédures.&lt;a2&gt;&lt;s3&gt;&lt;s4&gt;4&lt;/s4&gt;&lt;/s3&gt;&lt;/a2&gt; Dans les chapitres suivants nous verrons que les mêmes règles nous permettent de créer des procédures pour manipuler également des données composites.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Indeed, complex programs are constructed by building, step by step, computational objects of increasing complexity.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123405Z">
+        <seg>En fait, les programmes complexes sont construits en créant pas à pas des objets informatiques de complexité croissante.</seg>
       </tuv>
     </tu>
     <tu>
@@ -546,6 +786,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T085129Z">
         <seg>Ce sont nous, les humains, qui sont perplexes face à une expression relativement simple du type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It should be clear that the possibility of associating values with symbols and later retrieving them means that the interpreter must maintain some sort of memory that keeps track of the name-object pairs.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124216Z">
+        <seg>Il est clair que la possibilité d'associer des valeurs à des symboles puis de les retrouver par la suite signifie que l'interpréteur doit entretenir une mémoire qui enregistre les paires nom-objet.</seg>
       </tuv>
     </tu>
     <tu>
@@ -566,10 +814,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Next, observe that the repeated application of the first step brings us to the point where we need to evaluate, not combinations, but primitive expressions such as numerals, built-in operators, or other names.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130127Z">
+        <seg>Ensuite, il faut comprendre que l'application répétée de la première étape nous amène au point où nous devons évaluer non pas des combinaisons mais des expressions primitives telles que des numéraux, des opérateurs *** et d'autres noms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>No ambiguity can arise, because the operator is always the leftmost element and the entire combination is delimited by the parentheses.</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T084633Z">
-        <seg>Il n'y a aucune ambiguité car l'opérateur est l'élément le plus à gauche et la combinaison entière est délimitée par des parenthèses.</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123503Z">
+        <seg>Il n'y a aucune ambiguïté car l'opérateur est l'élément le plus à gauche et la combinaison entière est délimitée par des parenthèses.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notice how succinctly the idea of recursion can be used to express what, in the case of a deeply nested combination, would otherwise be viewed as a rather complicated process.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T125133Z">
+        <seg>Remarquez la manière succincte avec laquelle l'idée de récursion peut être utilisée pour exprimer ce qui, dans le cas de combinaisons fortement imbriquées, serait considéré comme un processus plutôt complexe.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notice that the evaluation rule given above does not handle definitions.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T043730Z">
+        <seg>Remarquez que la règle d'évaluation ci-dessus ne prend pas en compte les définitions.</seg>
       </tuv>
     </tu>
     <tu>
@@ -584,8 +856,8 @@
       <tuv lang="EN-US">
         <seg>One easy way to get started at programming is to examine some typical interactions with an interpreter for the Scheme dialect of Lisp.</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="jchelary" changedate="20130514T063803Z">
-        <seg>Une manière facile de commencer la programmation est d'éxaminer des intércations à l'aide d'un interpréteur pour le dialecte de Lisp qu'est Scheme.</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123601Z">
+        <seg>Une manière facile de commencer la programmation est d'examiner des interactions à l'aide d'un interpréteur pour le dialecte de Lisp qu'est Scheme.</seg>
       </tuv>
     </tu>
     <tu>
@@ -598,10 +870,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>One of our goals in this chapter is to isolate issues about thinking procedurally.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124450Z">
+        <seg>Un de nos objectifs dans ce chapitre est d'isoler les questions relatives à la pensée procédurale.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>One of them is that it can accommodate &lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;procedures that may take an arbitrary number of arguments, as in the following examples:</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T084529Z">
-        <seg>L'un d'entre eux est de s'accomoder de &lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;procédures qui ont un nombre quelconque d'arguments comme dans les exemples suivants :</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123512Z">
+        <seg>L'un d'entre eux est de s'accommoder de &lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;procédures qui ont un nombre quelconque d'arguments comme dans les exemples suivants :</seg>
       </tuv>
     </tu>
     <tu>
@@ -630,10 +910,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;a5&gt;&lt;/a5&gt;terminal nodes (that is, nodes with no branches stemming from them) represent either operators or numbers.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T125522Z">
+        <seg>Les &lt;a5&gt;&lt;/a5&gt;nœuds terminaux (c'est-à-dire les nœuds dont ne partent aucune branche) représentent soit des opérateurs, soit des nombres.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;a7&gt;&lt;/a7&gt;value of a combination is obtained by applying the procedure specified by the operator to the &lt;a8&gt;&lt;/a8&gt;&lt;e9&gt;arguments&lt;/e9&gt; that are the values of the operands.</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T011818Z">
-        <seg>La &lt;a7&gt;&lt;/a7&gt;valeur de la combinaison est obtenue en applicant la procédure spécifiée par l'opérateur aux &lt;a8&gt;&lt;/a8&gt;&lt;e9&gt;arguments&lt;/e9&gt; qui sont les valeurs des opérandes.</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123525Z">
+        <seg>La &lt;a7&gt;&lt;/a7&gt;valeur de la combinaison est obtenue en appliquant la procédure spécifiée par l'opérateur aux &lt;a8&gt;&lt;/a8&gt;&lt;e9&gt;arguments&lt;/e9&gt; qui sont les valeurs des opérandes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -650,6 +938,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T045654Z">
         <seg>La convention qui consiste à placer l'opérateur à la gauche des opérandes est connue sous le nom de &lt;a0&gt;&lt;/a0&gt;&lt;e1&gt;notation inversée&lt;/e1&gt; et peut prêter à confusion au début car elle est très différente des conventions utilisées d'habitude en mathématiques.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The interpreter makes this step-by-step program construction particularly convenient because name-object associations can be created incrementally in successive interactions.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123819Z">
+        <seg>L'interpréteur rend cette construction de programme par étape particulièrement pratique car les associations noms-objets peuvent être créées de manière incrémentées en interactions successives.</seg>
       </tuv>
     </tu>
     <tu>
@@ -686,6 +982,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This feature encourages the &lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;incremental development and testing of programs and is largely responsible for the fact that &lt;a4&gt;&lt;/a4&gt;a Lisp program usually consists of a large number of relatively simple procedures.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124053Z">
+        <seg>Cette fonction encourage le &lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;développement et les tests incrémentiels de programmes et est en grande partie responsable du fait qu'un &lt;a4&gt;&lt;/a4&gt;programme en Lisp consiste en général d'un grand nombre de procédures relativement simples.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This memory is called the &lt;a0&gt;&lt;/a0&gt;&lt;e1&gt;environment&lt;/e1&gt; (more precisely the &lt;a2&gt;&lt;/a2&gt;&lt;e3&gt;global environment&lt;/e3&gt;, since we will see later that a computation may involve a number of different environments).&lt;a4&gt;&lt;s5&gt;&lt;s6&gt;9&lt;/s6&gt;&lt;/s5&gt;&lt;/a4&gt;</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124345Z">
+        <seg>Cette mémoire est appelée l'&lt;a0&gt;&lt;/a0&gt;&lt;e1&gt;environnement&lt;/e1&gt; (ou plus précisément l'&lt;a2&gt;&lt;/a2&gt;&lt;e3&gt;environnement global&lt;/e3&gt;, puisque nous verrons plus tard qu'un calcul peut impliquer un certain nombre d'environnements différents).&lt;a4&gt;&lt;s5&gt;&lt;s6&gt;9&lt;/s6&gt;&lt;/s5&gt;&lt;/a4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This mode of operation is often expressed by saying that the interpreter runs in a &lt;a0&gt;&lt;/a0&gt;&lt;a1&gt;&lt;/a1&gt;&lt;e2&gt;read-eval-print loop&lt;/e2&gt;.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130521T052915Z">
@@ -702,10 +1014,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Thus, the evaluation rule is &lt;a0&gt;&lt;/a0&gt;&lt;e1&gt;recursive&lt;/e1&gt; in nature; that is, it includes, as one of its steps, the need to invoke the rule itself.&lt;a2&gt;&lt;s3&gt;&lt;s4&gt;10&lt;/s4&gt;&lt;/s3&gt;&lt;/a2&gt;</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124950Z">
+        <seg>De ce fait, la règle d'évaluation est &lt;a0&gt;&lt;/a0&gt;&lt;e1&gt;récursive&lt;/e1&gt; par nature ; c'est-à-dire qu'elle inclut dans l'une de ses étapes le besoin d'invoquer la règle elle-même.&lt;a2&gt;&lt;s3&gt;&lt;s4&gt;10&lt;/s4&gt;&lt;/s3&gt;&lt;/a2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Thus, when we describe a language, we should pay particular attention to the means that the language provides for combining simple ideas to form more complex ideas.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130514T051412Z">
         <seg>Quand nous décrivons un langage, une attention particulière doit être donnée aux moyens que le langage fourni pour combiner des idées simples en idées plus complexes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To evaluate a combination, do the following:</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124559Z">
+        <seg>Pour évaluer une combinaison, suivre les étapes suivantes :</seg>
       </tuv>
     </tu>
     <tu>
@@ -726,10 +1054,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Viewing evaluation in terms of the tree, we can imagine that the values of the operands percolate upward, starting from the terminal nodes and then combining at higher and higher levels.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T125628Z">
+        <seg>La visualisation de l'évaluation sous la forme d'un arbre permet d'imaginer que les valeurs des opérandes remontent vers le haut, en partant des nœuds terminaux et en se combinant à des niveaux de plus en plus élevés.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We can help ourselves by writing such an expression in the form</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T085216Z">
         <seg>Nous pouvons nous faciliter la tâche en écrivant une telle expression sous la forme</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We can obtain a picture of this process by &lt;a0&gt;&lt;/a0&gt;representing the combination in the form of a &lt;a1&gt;&lt;/a1&gt;tree, as shown in figure &lt;a2&gt;1.1&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T125253Z">
+        <seg>Nous pouvons obtenir une image de ce processus en &lt;a0&gt;&lt;/a0&gt;représentant la combinaison sous la forme d'un &lt;a1&gt;&lt;/a1&gt;arbre, comme dans la figure &lt;a2&gt;1.1&lt;/a2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We may regard the second rule as a special case of the third one by stipulating that symbols such as &lt;t0&gt;+&lt;/t0&gt; and &lt;t1&gt;*&lt;/t1&gt; are also included in the global environment, and are associated with the sequences of machine instructions that are their ``values.'' The key point to notice is the role of the &lt;a2&gt;&lt;/a2&gt;environment in determining the meaning of the symbols in expressions.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T042649Z">
+        <seg>On peut considérer la seconde règle comme un cas particulier de la troisième en déclarant que les symboles tels que &lt;t0&gt;+&lt;/t0&gt; et &lt;t1&gt;*&lt;/t1&gt; sont aussi inclus dans l'environnement global et sont associés aux séquences d'instruction machine qui sont leurs « valeurs ». Le point clé à considérer est le rôle de &lt;a2&gt;&lt;/a2&gt;l'environnement dans la détermination de la signification des symboles dans les expressions.</seg>
       </tuv>
     </tu>
     <tu>
@@ -742,18 +1094,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We take care of the primitive cases by stipulating that</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130112Z">
+        <seg>Nous traitons les cas de primitives en stipulant que</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You type an &lt;e0&gt;expression&lt;/e0&gt;, and the interpreter responds by displaying the result of its &lt;e1&gt;evaluating&lt;/e1&gt; that expression.</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="jchelary" changedate="20130514T134734Z">
-        <seg>Vous saisissez une &lt;e0&gt;expression&lt;/e0&gt; et l'interpréteur répond en affichant le résultat de son &lt;e1&gt;évaluation&lt;/e1&gt; de cette expessions.</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123543Z">
+        <seg>Vous saisissez une &lt;e0&gt;expression&lt;/e0&gt; et l'interpréteur répond en affichant le résultat de son &lt;e1&gt;évaluation&lt;/e1&gt; de cette expressions.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>[Go to &lt;s0&gt;&lt;a1&gt;first&lt;/a1&gt;, &lt;a2&gt;previous&lt;/a2&gt;&lt;/s0&gt;&lt;s3&gt;, &lt;a4&gt;next&lt;/a4&gt;&lt;/s3&gt; page&lt;s5&gt;;   &lt;/s5&gt;&lt;s6&gt;&lt;a7&gt;contents&lt;/a7&gt;&lt;/s6&gt;&lt;s8&gt;&lt;s9&gt;;   &lt;/s9&gt;&lt;a10&gt;index&lt;/a10&gt;&lt;/s8&gt;]</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T154318Z">
-        <seg>[Aller à la &lt;s0&gt;&lt;a1&gt;première&lt;/a1&gt; page, à la page &lt;a2&gt;précédente&lt;/a2&gt;&lt;/s0&gt;&lt;s3&gt;, &lt;a4&gt;suivante&lt;/a4&gt;&lt;/s3&gt;&lt;s5&gt; ;   &lt;/s5&gt;&lt;s6&gt;&lt;a7&gt;table des matières&lt;/a7&gt;&lt;/s6&gt;&lt;s8&gt;&lt;s9&gt; ;   &lt;/s9&gt;&lt;a10&gt;index&lt;/a10&gt;&lt;/s8&gt;]</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123737Z">
+        <seg>[Aller à la &lt;s0&gt;&lt;a1&gt;première&lt;/a1&gt; page, à la page &lt;a2&gt;précédente&lt;/a2&gt;&lt;/s0&gt;&lt;s3&gt;, &lt;a4&gt;suivante&lt;/a4&gt;&lt;/s3&gt;&lt;s5&gt; ; &lt;/s5&gt;&lt;s6&gt;&lt;a7&gt;table des matières&lt;/a7&gt;&lt;/s6&gt;&lt;s8&gt;&lt;s9&gt; ; &lt;/s9&gt;&lt;a10&gt;index&lt;/a10&gt;&lt;/s8&gt;]</seg>
       </tuv>
     </tu>
     <tu>
@@ -776,8 +1136,8 @@
       <tuv lang="EN-US">
         <seg>[Go to &lt;s0&gt;first, previous&lt;/s0&gt;&lt;s1&gt;&lt;s2&gt;, &lt;/s2&gt;&lt;a3&gt;next&lt;/a3&gt;&lt;/s1&gt; page&lt;s4&gt;;   &lt;/s4&gt;&lt;s5&gt;&lt;a6&gt;contents&lt;/a6&gt;&lt;/s5&gt;&lt;s7&gt;&lt;s8&gt;;   &lt;/s8&gt;&lt;a9&gt;index&lt;/a9&gt;&lt;/s7&gt;]</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T154343Z">
-        <seg>[Aller à la &lt;s0&gt;permière page, à la page précédente&lt;/s0&gt;&lt;s1&gt;&lt;s2&gt;, &lt;/s2&gt;&lt;a3&gt;suivante&lt;/a3&gt;&lt;/s1&gt;&lt;s4&gt; ;   &lt;/s4&gt;&lt;s5&gt;&lt;a6&gt;table des matières&lt;/a6&gt;&lt;/s5&gt;&lt;s7&gt;&lt;s8&gt; ;   &lt;/s8&gt;&lt;a9&gt;index&lt;/a9&gt;&lt;/s7&gt;]</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123750Z">
+        <seg>[Aller à la &lt;s0&gt;première page, à la page précédente&lt;/s0&gt;&lt;s1&gt;&lt;s2&gt;, &lt;/s2&gt;&lt;a3&gt;suivante&lt;/a3&gt;&lt;/s1&gt;&lt;s4&gt; ; &lt;/s4&gt;&lt;s5&gt;&lt;a6&gt;table des matières&lt;/a6&gt;&lt;/s5&gt;&lt;s7&gt;&lt;s8&gt; ; &lt;/s8&gt;&lt;a9&gt;index&lt;/a9&gt;&lt;/s7&gt;]</seg>
       </tuv>
     </tu>
     <tu>
@@ -808,8 +1168,8 @@
       <tuv lang="EN-US">
         <seg>following a formatting convention known as &lt;a0&gt;&lt;/a0&gt;&lt;e1&gt;pretty-printing&lt;/e1&gt;, in which each long combination is written so that the operands are aligned vertically.</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="jchelary" changedate="20130521T050449Z">
-        <seg>grâce à une convention d'&lt;a0&gt;&lt;/a0&gt;&lt;e1&gt;impression élégante&lt;/e1&gt; selon laquelle toute combinaison longue est écrite de maière à ce que les opérandes soient alignées verticalement.</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123456Z">
+        <seg>grâce à une convention d'&lt;a0&gt;&lt;/a0&gt;&lt;e1&gt;impression élégante&lt;/e1&gt; selon laquelle toute combinaison longue est écrite de manière à ce que les opérandes soient alignées verticalement.</seg>
       </tuv>
     </tu>
     <tu>
@@ -826,6 +1186,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T154059Z">
         <seg>des programmes informatiques</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>requires that the evaluation rule be applied to four different combinations.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T125208Z">
+        <seg>demande que la règle d'évaluation soit appliquée à quatre combinaisons différentes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -850,6 +1218,30 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T010905Z">
         <seg>l'interpréteur répondra en affichant&lt;a0&gt;&lt;s1&gt;&lt;s2&gt;5&lt;/s2&gt;&lt;/s1&gt;&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the values of built-in operators are the machine instruction sequences that carry out the corresponding operations, and</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130220Z">
+        <seg>la valeur des opérateurs *** sont les séquences d'instruction machine qui effectuent l'opération correspondant, et</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the values of numerals are the numbers that they name,</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130143Z">
+        <seg>la valeur de numéraux est le nombre qu'ils représentent,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the values of other names are the objects associated with those names in the environment.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130241Z">
+        <seg>la valeur des autres noms est les objets associés à ces noms dans l'environnement.</seg>
       </tuv>
     </tu>
     <tu>
