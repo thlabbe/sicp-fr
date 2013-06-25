@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.4" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.2_2" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -90,6 +90,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T085221Z">
         <seg>(+ (- 10 7)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(+ (square 6) (square 10))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T001042Z">
+        <seg>(+ (carré 6) (carré 10))</seg>
       </tuv>
     </tu>
     <tu>
@@ -302,6 +310,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(sum-of-squares (+ 5 1) (* 5 2))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130624T234439Z">
+        <seg>(somme-de-carrés (+ 5 1) (* 5 2))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(sum-of-squares (+ a 1) (* a 2))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130624T234408Z">
+        <seg>(somme-de-carrés (+ a 1) (* a 2)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(sum-of-squares (+ a 1) (* a 2)))</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110621Z">
@@ -346,6 +370,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T042404Z">
         <seg>1.1.4 Procédures composées</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1.1.5  The Substitution Model for Procedure Application</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130624T232127Z">
+        <seg>1.1.5 Le modèle de substitution pour l'application des procédures</seg>
       </tuv>
     </tu>
     <tu>
@@ -742,6 +774,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Evaluating this combination involves three subproblems.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T000648Z">
+        <seg>L'évaluation de cette combinaison pose trois sous-problèmes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Even this simple rule illustrates some important points about processes in general.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124735Z">
@@ -786,6 +826,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124831Z">
         <seg>En premier, il faut observer que la première étape spécifie que pour accomplir le processus d'évaluation pour une combinaison, nous devons effectuer ce processus d'évaluation sur chaque élément de la combinaison.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For compound procedures, the application process is as follows:</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130624T234234Z">
+        <seg>Pour les procédures composées, le processus d'application est le suivant :</seg>
       </tuv>
     </tu>
     <tu>
@@ -842,6 +890,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130522T151644Z">
         <seg>Voici d'autres exemples d'utilisation de &lt;t0&gt;define&lt;/t0&gt; :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If we use the definition of &lt;t0&gt;square&lt;/t0&gt;, this reduces to</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T001105Z">
+        <seg>Si nous utilisons la définition de &lt;t0&gt;carré&lt;/t0&gt;, nous réduisons ceci à</seg>
       </tuv>
     </tu>
     <tu>
@@ -1014,6 +1070,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Now &lt;t1&gt;(+ 5 1)&lt;/t1&gt; produces 6 and &lt;t2&gt;(* 5 2)&lt;/t2&gt; produces 10, so we must apply the &lt;t3&gt;sum-of-squares&lt;/t3&gt; procedure to 6 and 10.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T000919Z">
+        <seg>&lt;t1&gt;(+ 5 1)&lt;/t1&gt; vaut 6 et &lt;t2&gt;(* 5 2)&lt;/t2&gt; vaut 10. Nous devons donc appliquer la procédure &lt;t3&gt;somme-de-carrés&lt;/t3&gt; à 6 et 10.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Now we can use &lt;t0&gt;sum-of-squares&lt;/t0&gt; as a building block in constructing further procedures:</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110611Z">
@@ -1110,6 +1174,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>That is, the interpreter evaluates the elements of the combination and applies the procedure (which is the value of the operator of the combination) to the arguments (which are the values of the operands of the combination).</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130624T232416Z">
+        <seg>L'interpréteur évalue les éléments de la combinaison et applique la procédure (qui est la valeur de l'opérateur de la combinaison) aux arguments (qui sont les valeurs des opérandes de la combinaison).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;&lt;e0&gt;name&lt;/e0&gt;&gt; is a symbol to be associated with the procedure definition in the environment.&lt;a1&gt;&lt;s2&gt;&lt;s3&gt;13&lt;/s3&gt;&lt;/s2&gt;&lt;/a1&gt; The &lt;a4&gt;&lt;/a4&gt;&lt;a5&gt;&lt;/a5&gt;&lt;&lt;e6&gt;formal parameters&lt;/e6&gt;&gt; are the names used within the body of the procedure to refer to the corresponding arguments of the procedure.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T104741Z">
@@ -1198,6 +1270,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The process we have just described is called the &lt;e0&gt;substitution model&lt;/e0&gt; for procedure application.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T001157Z">
+        <seg>Le processus que nous venons de décrire est appelé le &lt;e0&gt;modèle de substitution&lt;/e0&gt; pour l'application de procédures.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The resulting indentations display clearly the structure of the expression.&lt;a2&gt;&lt;s3&gt;&lt;s4&gt;6&lt;/s4&gt;&lt;/s3&gt;&lt;/a2&gt;</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130521T050523Z">
@@ -1222,10 +1302,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Then we replace the formal parameter &lt;t0&gt;a&lt;/t0&gt; by the argument 5:</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130624T234427Z">
+        <seg>Puis remplaçons le paramètre formel &lt;t0&gt;a&lt;/t0&gt; par l'argument 5 :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There is no limit (in principle) to the depth of such nesting and to the overall complexity of the expressions that the Lisp interpreter can evaluate.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T103543Z">
         <seg>Il n'y a aucune limite (en principe) à la profondeur de ce genre d'emboitement ou à la complexité globale de l'expression que l'interpréteur Lisp peut évaluer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These values are substituted for the formal parameters &lt;t4&gt;x&lt;/t4&gt; and &lt;t5&gt;y&lt;/t5&gt; in the body of &lt;t6&gt;sum-of-squares&lt;/t6&gt;, reducing the expression to</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T001023Z">
+        <seg>Ces values sont substituées aux paramètres formels &lt;t4&gt;x&lt;/t4&gt; et &lt;t5&gt;y&lt;/t5&gt; dans le corps de &lt;t6&gt;somme-de-carrés&lt;/t6&gt; pour réduire l'expression à</seg>
       </tuv>
     </tu>
     <tu>
@@ -1254,6 +1350,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Thus the problem reduces to the evaluation of a combination with two operands and an operator &lt;t0&gt;sum-of-squares&lt;/t0&gt;.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T000557Z">
+        <seg>Le problème se réduit ainsi à l'évaluation d'une combinaison de deux opérandes et de l'opérateur &lt;t0&gt;somme-de-carrés&lt;/t0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Thus, any powerful programming language should be able to describe primitive data and primitive procedures and should have methods for combining and abstracting procedures and data.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130514T052342Z">
@@ -1278,10 +1382,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To apply a compound procedure to arguments, evaluate the body of the procedure with each formal parameter replaced by the corresponding argument.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130624T234310Z">
+        <seg>Pour appliquer une procédure composée à des arguments, évaluer le corps de la procédure avec chaque paramètre formel remplacé par l'argument correspondant.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To evaluate a combination whose operator names a compound procedure, the interpreter follows much the same process as for combinations whose operators name primitive procedures, which we described in section &lt;a0&gt;1.1.3&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130624T232305Z">
+        <seg>Pour évaluer une combinaison dont l'opérateur est le nom d'une procédure composée, l'interpréteur suit en grande partie le même processus que pour les combinaisons dont les opérateurs sont le nom de procédures primitives, décrit en section &lt;a0&gt;1.1.3&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To evaluate a combination, do the following:</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124559Z">
         <seg>Pour évaluer une combinaison, suivre les étapes suivantes :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To illustrate this process, let's evaluate the combination</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130624T234325Z">
+        <seg>Pour illustrer ce processus, évaluons la combinaison</seg>
       </tuv>
     </tu>
     <tu>
@@ -1318,10 +1446,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We begin by retrieving the body of &lt;t2&gt;f&lt;/t2&gt;:</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130624T234404Z">
+        <seg>Commençons par retrouver le corps de &lt;t2&gt;f&lt;/t2&gt; :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We can also use &lt;t0&gt;square&lt;/t0&gt; as a building block in defining other procedures.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110224Z">
         <seg>Nous pouvons également utiliser &lt;t0&gt;carré&lt;/t0&gt; comme bloc pour définir d'autres procédures.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We can assume that the mechanism for applying primitive procedures to arguments is built into the interpreter.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130624T232459Z">
+        <seg>Nous pouvons considérer que le mécanisme pour appliquer des procédures primitives aux arguments est construit dans l'interpréteur.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1382,6 +1526,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We must evaluate the operator to get the procedure to be applied, and we must evaluate the operands to get the arguments.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T000819Z">
+        <seg>Nous devons évaluer l'opérateur pour que la procédure soit appliquée, et nous devons évaluer les opérandes pour obtenir les arguments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We say that the &lt;a1&gt;&lt;/a1&gt;name identifies a &lt;a2&gt;&lt;/a2&gt;&lt;e3&gt;variable&lt;/e3&gt; whose &lt;a4&gt;&lt;/a4&gt;&lt;e5&gt;value&lt;/e5&gt; is the object.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130521T054407Z">
@@ -1434,6 +1586,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123750Z">
         <seg>[Aller à la &lt;s0&gt;première page, à la page précédente&lt;/s0&gt;&lt;s1&gt;&lt;s2&gt;, &lt;/s2&gt;&lt;a3&gt;suivante&lt;/a3&gt;&lt;/s1&gt;&lt;s4&gt; ; &lt;/s4&gt;&lt;s5&gt;&lt;a6&gt;table des matières&lt;/a6&gt;&lt;/s5&gt;&lt;s7&gt;&lt;s8&gt; ; &lt;/s8&gt;&lt;a9&gt;index&lt;/a9&gt;&lt;/s7&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>and finally to</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T001122Z">
+        <seg>et finalement à</seg>
       </tuv>
     </tu>
     <tu>
@@ -1538,6 +1698,22 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130241Z">
         <seg>la valeur des autres noms est les objets associés à ces noms dans l'environnement.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>where &lt;t0&gt;f&lt;/t0&gt; is the procedure defined in section &lt;a1&gt;1.1.4&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130624T234347Z">
+        <seg>où &lt;t0&gt;f&lt;/t0&gt; est la procédure définie en section &lt;a1&gt;1.1.4&lt;/a1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>which reduces by multiplication to</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T001117Z">
+        <seg>ce qui se réduit à</seg>
       </tuv>
     </tu>
     <tu>
