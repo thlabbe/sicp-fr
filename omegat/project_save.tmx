@@ -998,6 +998,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It can be taken as a model that determines the ``meaning'' of procedure application, insofar as the procedures in this chapter are concerned.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T005436Z">
+        <seg>Il peut être considéré comme un modèle qui détermine le « sens »</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is we humans who get confused by still relatively simple expressions such as</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T085129Z">
