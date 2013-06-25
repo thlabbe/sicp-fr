@@ -1168,8 +1168,8 @@
       <tuv lang="EN-US">
         <seg>Lisp uses applicative-order evaluation, partly because of the additional efficiency obtained from avoiding multiple evaluations of expressions such as those illustrated with &lt;t0&gt;(+ 5 1)&lt;/t0&gt; and &lt;t1&gt;(* 5 2)&lt;/t1&gt; above and, more significantly, because normal-order evaluation becomes much more complicated to deal with when we leave the realm of procedures that can be modeled by substitution.</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T130837Z">
-        <seg>Lisp utilise l'évaluation en ordre d'application en partie à cause de l'efficacité supplémentaire obtenue en évitant les évaluations multiples d'expressions telles que celles illustrées avec &lt;t0&gt;(+ 5 1)&lt;/t0&gt; et &lt;t1&gt;(* 5 2)&lt;/t1&gt; ci-dessus, et de </seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T131643Z">
+        <seg>Lisp utilise l'évaluation en ordre d'application en partie à cause de l'efficacité supplémentaire obtenue en évitant les évaluations multiples d'expressions telles que celles illustrées avec &lt;t0&gt;(+ 5 1)&lt;/t0&gt; et &lt;t1&gt;(* 5 2)&lt;/t1&gt; ci-dessus, et surtout car l'évaluation en ordre normal devient bien plus compliquée à pratiquer quand on quitte le domaine des procédures qui peuvent être modélisées par substitution.</seg>
       </tuv>
     </tu>
     <tu>
