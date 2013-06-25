@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.4" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.2_2" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -894,6 +894,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, there are two points that should be stressed:</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T005533Z">
+        <seg>Cependant, nous devons insister sur deux points :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If we use the definition of &lt;t0&gt;square&lt;/t0&gt;, this reduces to</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T001105Z">
@@ -1000,8 +1008,8 @@
       <tuv lang="EN-US">
         <seg>It can be taken as a model that determines the ``meaning'' of procedure application, insofar as the procedures in this chapter are concerned.</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T005436Z">
-        <seg>Il peut être considéré comme un modèle qui détermine le « sens »</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T005520Z">
+        <seg>Il peut être considéré comme un modèle qui détermine la « signification » de l'application de procédure dans le cadre des procédures de ce chapitre.</seg>
       </tuv>
     </tu>
     <tu>
