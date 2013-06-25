@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.4" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.2_2" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -42,6 +42,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130522T151724Z">
         <seg>(* pi (* rayon rayon))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(* x x)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T110123Z">
+        <seg>(* x x)</seg>
       </tuv>
     </tu>
     <tu>
@@ -166,6 +174,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(+    (* (+ 5 1) (+ 5 1))   (* (* 5 2) (* 5 2)))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T105836Z">
+        <seg>(+    (* (+ 5 1) (+ 5 1))   (* (* 5 2) (* 5 2)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(+    (square (+ 5 1))      (square (* 5 2))  )</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T105835Z">
+        <seg>(+    (carré (+ 5 1))      (carré (* 5 2))  )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(+         (* 6 6)             (* 10 10))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T105849Z">
+        <seg>(+         (* 6 6)             (* 10 10))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(+           36                   100)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T105850Z">
+        <seg>(+           36                   100)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(- 1000 334)</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T011153Z">
@@ -194,6 +234,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T010832Z">
         <seg>(Ou plus précisément, l'expression saisie est le signe qui représente le nombre en base 10.) Si vous présentez à Lisp un nombre</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(See exercise &lt;a4&gt;1.5&lt;/a4&gt; for an instance of an ``illegitimate'' value where normal-order and applicative-order evaluation do not give the same result.)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T110730Z">
+        <seg>(Voir l'exercice &lt;a4&gt;1.5&lt;/a4&gt; pour un exemple de valeur « illégitime » où les deux types d'évaluation ne produisent pas le même résultat.)</seg>
       </tuv>
     </tu>
     <tu>
@@ -376,8 +424,8 @@
       <tuv lang="EN-US">
         <seg>1.1.5  The Substitution Model for Procedure Application</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="jchelary" changedate="20130625T131118Z">
-        <seg></seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130624T232127Z">
+        <seg>1.1.5 Le modèle de substitution pour l'application des procédures</seg>
       </tuv>
     </tu>
     <tu>
@@ -718,10 +766,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>According to the description of evaluation given in section &lt;a0&gt;1.1.3&lt;/a0&gt;, the interpreter first evaluates the operator and operands and then applies the resulting procedure to the resulting arguments.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T103620Z">
+        <seg>D'après la description de l'évaluation donnée dans la section &lt;a0&gt;1.1.3&lt;/a0&gt;, l'interpréteur évalue en premier l'opérateur et les opérandes puis applique la procédure résultante aux arguments résultats.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An alternative evaluation model would not evaluate the operands until their values were needed.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T103717Z">
+        <seg>Un modèle alternatif d'évaluation n'évalue par les opérandes avant que leurs valeurs soient requises.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Applicative order versus normal order</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T102926Z">
+        <seg>Ordre d'application et ordre normal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As a case in point, let us consider that, in evaluating combinations, the interpreter is itself following a procedure.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124543Z">
         <seg>Considérons dans notre cas qu'en évaluant des combinaisons l'interpréteur suit lui aussi une procédure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As we examine things in greater detail, these simple models become inadequate and must be replaced by more refined models.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T102737Z">
+        <seg>À l'examen, ces modèles simples se révèlent inadéquat et demandent leur remplacement par des modèles plus rafinés.</seg>
       </tuv>
     </tu>
     <tu>
@@ -910,6 +990,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If we used this method, the evaluation of</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T105759Z">
+        <seg>Avec cette méthode, l'évaluation de</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Imagine that you are sitting at a computer terminal.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130514T063819Z">
@@ -954,6 +1042,38 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T125718Z">
         <seg>D'une manière générale, nous verrons que la récursion est une technique très puissante pour traiter des objets hiérarchiques sous formes d'arbres.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In general, when &lt;a0&gt;&lt;/a0&gt;modeling phenomena in science and engineering, we begin with simplified, incomplete models.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T103441Z">
+        <seg>En général, quand &lt;a0&gt;&lt;/a0&gt; on modélise des phénomènes en sciences ou en ingénierie, on commence par des modèles simples et incomplets.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In particular, the evaluations of &lt;t0&gt;(+ 5 1)&lt;/t0&gt; and &lt;t1&gt;(* 5 2)&lt;/t1&gt; are each performed twice here, corresponding to the reduction of the expression</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T110122Z">
+        <seg>En particulier, les évaluations de &lt;t0&gt;(+ 5 1)&lt;/t0&gt; et &lt;t1&gt;(* 5 2)&lt;/t1&gt; sont effectuées deux fois lors de la réduction de l'expression</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In particular, when we address in chapter 3 the use of procedures with ``mutable data,'' we will see that the substitution model breaks down and must be replaced by a more complicated model of procedure application.&lt;a1&gt;&lt;s2&gt;&lt;s3&gt;15&lt;/s3&gt;&lt;/s2&gt;&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T103427Z">
+        <seg>En particulier, quand nous aborderons l'utilisation des procédures avec des « données mutables » au chapitre 3, nous verrons que le modèle de substitution ne fonctionne plus et doit être remplacé par un modèle plus complexe d'application de procédure.&lt;a1&gt;&lt;s2&gt;&lt;s3&gt;15&lt;/s3&gt;&lt;/s2&gt;&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In practice, the ``substitution'' is accomplished by using a local environment for the formal parameters.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T103518Z">
+        <seg>En pratique, la « substitution » est accomplie en utilisant un environnent local pour les paramètres formels.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1006,6 +1126,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Instead it would first substitute operand expressions for parameters until it obtained an expression involving only primitive operators, and would then perform the evaluation.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T103854Z">
+        <seg>Il substituerait plutôt les expressions d'opérandes par des paramètres jusqu'à ce qu'il obtienne une expression qui ne contienne que des opérateurs primitifs et effectuerait alors l'évaluation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It can be shown that, for procedure applications that can be modeled using substitution (including all the procedures in the first two chapters of this book) and that yield legitimate values, normal-order and applicative-order evaluation produce the same value.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T110646Z">
+        <seg>On peut montrer que pour l'application de procédures qui peuvent être modélisées à l'aide de la substitution (toutes les procédures dans les deux premiers chapitres de ce livre) et qui produisent des valeurs légitimes, l'évaluation en ordre normal et en ordre d'application produisent les mêmes valeurs.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It can be taken as a model that determines the ``meaning'' of procedure application, insofar as the procedures in this chapter are concerned.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T005520Z">
@@ -1026,6 +1162,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124216Z">
         <seg>Il est clair que la possibilité d'associer des valeurs à des symboles puis de les retrouver par la suite signifie que l'interpréteur doit entretenir une mémoire qui enregistre les paires nom-objet.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Lisp uses applicative-order evaluation, partly because of the additional efficiency obtained from avoiding multiple evaluations of expressions such as those illustrated with &lt;t0&gt;(+ 5 1)&lt;/t0&gt; and &lt;t1&gt;(* 5 2)&lt;/t1&gt; above and, more significantly, because normal-order evaluation becomes much more complicated to deal with when we leave the realm of procedures that can be modeled by substitution.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T130837Z">
+        <seg>Lisp utilise l'évaluation en ordre d'application en partie à cause de l'efficacité supplémentaire obtenue en évitant les évaluations multiples d'expressions telles que celles illustrées avec &lt;t0&gt;(+ 5 1)&lt;/t0&gt; et &lt;t1&gt;(* 5 2)&lt;/t1&gt; ci-dessus, et de </seg>
       </tuv>
     </tu>
     <tu>
@@ -1154,6 +1298,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123512Z">
         <seg>L'un d'entre eux est de s'accommoder de &lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;procédures qui ont un nombre quelconque d'arguments comme dans les exemples suivants :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Over the course of this book, we will present a sequence of increasingly elaborate models of how interpreters work, culminating with a complete implementation of an interpreter and compiler in chapter 5.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T102151Z">
+        <seg>Au cours de cet ouvrage, nous présenterons une suite de modèles de fonctionnement de l'interpréteur de complexité croissante qui culminera avec l'implémentation complète d'un interpréteur et d'un compilateur au chapitre 5.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1294,10 +1446,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The purpose of the substitution is to help us think about procedure application, not to provide a description of how the interpreter really works.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T101757Z">
+        <seg>L'objectif de la substitution est de nous aider à penser à l'application de la procédure et non pas de nous fournir une description du fonctionnement réel de l'interpréteur.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The resulting indentations display clearly the structure of the expression.&lt;a2&gt;&lt;s3&gt;&lt;s4&gt;6&lt;/s4&gt;&lt;/s3&gt;&lt;/a2&gt;</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130521T050523Z">
         <seg>Les indentations résultantes affichent clairement la structure de l'expression.&lt;a2&gt;&lt;s3&gt;&lt;s4&gt;6&lt;/s4&gt;&lt;/s3&gt;&lt;/a2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The substitution model is no exception.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T102749Z">
+        <seg>Le modèle de substitution ne fait pas exception.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The substitution model is only the first of these models -- a way to get started thinking formally about the evaluation process.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T102233Z">
+        <seg>Le modèle de substitution est seulement le premier de ces modèles, une manière de commencer à penser de manière formelle au processus d'évaluation.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1342,10 +1518,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This alternative ``fully expand and then reduce'' evaluation method is known as &lt;a0&gt;&lt;/a0&gt;&lt;e1&gt;normal-order evaluation&lt;/e1&gt;, in contrast to the ``evaluate the arguments and then apply'' method that the interpreter actually uses, which is called &lt;a2&gt;&lt;/a2&gt;&lt;e3&gt;applicative-order evaluation&lt;/e3&gt;.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T110435Z">
+        <seg>Cette méthode d'évaluation où l'on « développe totalement avant de réduire » est connue sous le nome de &lt;a0&gt;&lt;/a0&gt;&lt;e1&gt;évaluation en ordre normal&lt;/e1&gt;, en opposition à la méthode « évalue les arguments et applique ensuite » utilisée en fait par l'interpréteur, qui est appelée &lt;a2&gt;&lt;/a2&gt;&lt;e3&gt;évaluation dans l'ordre d'application&lt;/e3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This feature encourages the &lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;incremental development and testing of programs and is largely responsible for the fact that &lt;a4&gt;&lt;/a4&gt;a Lisp program usually consists of a large number of relatively simple procedures.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124053Z">
         <seg>Cette fonction encourage le &lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;développement et les tests incrémentiels de programmes et est en grande partie responsable du fait qu'un &lt;a4&gt;&lt;/a4&gt;programme en Lisp consiste en général d'un grand nombre de procédures relativement simples.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This gives the same answer as our previous evaluation model, but the process is different.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T110003Z">
+        <seg>La réponse est la même que le modèle précédent mais le processus est différent.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is not the only way to perform evaluation.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T103647Z">
+        <seg>Ceci n'est pas la seule façon de procéder à une évaluation.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1434,6 +1634,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T085706Z">
         <seg>Pour faire le carré de x, multiplier x par lui-même.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Typical interpreters do not evaluate procedure applications by manipulating the text of a procedure to substitute values for the formal parameters.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T101848Z">
+        <seg>Les interpréteurs n'évaluent pas les applications de procédures en manipulant le texte de la procédure pour substituer les valeurs aux paramètres formels.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1566,6 +1774,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We will discuss this more fully in chapters 3 and 4 when we examine the implementation of an interpreter in detail.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T103452Z">
+        <seg>Nous aborderons ceci de manière plus approfondie dans les chapitres 3 et 4 quand nous examinerons l'implémentation d'un interpréteur en détail.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You type an &lt;e0&gt;expression&lt;/e0&gt;, and the interpreter responds by displaying the result of its &lt;e1&gt;evaluating&lt;/e1&gt; that expression.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123543Z">
@@ -1634,6 +1850,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130524T091110Z">
         <seg>default</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>followed by the reductions</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T105848Z">
+        <seg>suivie par les réductions</seg>
       </tuv>
     </tu>
     <tu>
@@ -1742,10 +1966,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>with &lt;t0&gt;x&lt;/t0&gt; replaced respectively by &lt;t1&gt;(+ 5 1)&lt;/t1&gt; and &lt;t2&gt;(* 5 2)&lt;/t2&gt;.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T110150Z">
+        <seg>avec &lt;t0&gt;x&lt;/t0&gt; remplacé respectivement par &lt;t1&gt;(+ 5 1)&lt;/t1&gt; et &lt;t2&gt;(*5 2)&lt;/t2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>with Julie Sussman</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T154113Z">
         <seg>avec Julie Sussman</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>would proceed according to the sequence of expansions</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T105823Z">
+        <seg>se déroulerait selon la suite d'expansions</seg>
       </tuv>
     </tu>
     <tu>
