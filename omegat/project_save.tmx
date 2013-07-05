@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.4" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.4_1" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -824,8 +824,8 @@
       <tuv lang="EN-US">
         <seg>As we shall see in chapter 3, the general notion of the environment as providing a context in which evaluation takes place will play an important role in our understanding of program execution.</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T043704Z">
-        <seg>Comme nous le verrons au chapitre 3, la notion d'un environnement en tant que contexte dans lequel l'évaluation a lieu joue un rôle important dans notr compréhension de l'exécution d'un programme.</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130705T071216Z">
+        <seg>Comme nous le verrons au chapitre 3, la notion d'un environnement en tant que contexte dans lequel l'évaluation a lieu joue un rôle important dans notre compréhension de l'exécution d'un programme.</seg>
       </tuv>
     </tu>
     <tu>
