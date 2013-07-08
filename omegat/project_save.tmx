@@ -6,10 +6,58 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>((&lt; a b) b)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085502Z" creationid="JC Helary" creationdate="20130707T085502Z">
+        <seg>((&lt; a b) b)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>((&lt; x 0) (- x))))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T105324Z" creationid="JC Helary" creationdate="20130706T105324Z">
+        <seg>((&lt; x 0) (- x))))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>((= b 4) (+ 6 7 a))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085458Z" creationid="JC Helary" creationdate="20130707T085458Z">
+        <seg>((= b 4) (+ 6 7 a))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>((= x 0) 0)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T105322Z" creationid="JC Helary" creationdate="20130706T105322Z">
+        <seg>((= x 0) 0)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>((if (&gt; b 0) + -) a b))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085847Z" creationid="JC Helary" creationdate="20130707T085847Z">
+        <seg>((if (&gt; b 0) + -) a b))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(* (+ 2 (* 4 6))</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T125142Z">
         <seg>(* (+ 2 (* 4 6))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(* (cond ((&gt; a b) a)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085501Z" creationid="JC Helary" creationdate="20130707T085501Z">
+        <seg>(* (cond ((&gt; a b) a)</seg>
       </tuv>
     </tu>
     <tu>
@@ -58,6 +106,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T085219Z">
         <seg>(+ (* 2 4)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(+ (* 2 4) (- 4 6))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085450Z" creationid="JC Helary" creationdate="20130707T085450Z">
+        <seg>(+ (* 2 4) (- 4 6))</seg>
       </tuv>
     </tu>
     <tu>
@@ -150,6 +206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(+ 2 (if (&gt; b a) b a))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085500Z" creationid="JC Helary" creationdate="20130707T085500Z">
+        <seg>(+ 2 (if (&gt; b a) b a))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(+ 36 100)</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130328Z">
@@ -170,6 +234,30 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T125143Z">
         <seg>(+ 3 5 7))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(+ 5 3 4)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085448Z" creationid="JC Helary" creationdate="20130707T085448Z">
+        <seg>(+ 5 3 4)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(+ a 1))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085504Z" creationid="JC Helary" creationdate="20130707T085504Z">
+        <seg>(+ a 1))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(+ a b (* a b))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085453Z" creationid="JC Helary" creationdate="20130707T085453Z">
+        <seg>(+ a b (* a b))</seg>
       </tuv>
     </tu>
     <tu>
@@ -214,10 +302,58 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(- 9 1)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085449Z" creationid="JC Helary" creationdate="20130707T085449Z">
+        <seg>(- 9 1)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(- x)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T111148Z" creationid="JC Helary" creationdate="20130706T111148Z">
+        <seg>(- x)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(/ 10 5)</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T011157Z">
         <seg>(/ 10 5)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(/ 6 2)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085449Z" creationid="JC Helary" creationdate="20130707T085449Z">
+        <seg>(/ 6 2)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(&lt;&lt;e0&gt;p&lt;s1&gt;2&lt;/s1&gt;&lt;/e0&gt;&gt; &lt;&lt;e2&gt;e&lt;s3&gt;2&lt;/s3&gt;&lt;/e2&gt;&gt;)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T105342Z" creationid="JC Helary" creationdate="20130706T105342Z">
+        <seg>(&lt;&lt;e0&gt;p&lt;s1&gt;2&lt;/s1&gt;&lt;/e0&gt;&gt; &lt;&lt;e2&gt;e&lt;s3&gt;2&lt;/s3&gt;&lt;/e2&gt;&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(&lt;&lt;e0&gt;p&lt;s1&gt;&lt;e2&gt;n&lt;/e2&gt;&lt;/s1&gt;&lt;/e0&gt;&gt; &lt;&lt;e3&gt;e&lt;s4&gt;&lt;e5&gt;n&lt;/e5&gt;&lt;/s4&gt;&lt;/e3&gt;&gt;))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T105343Z" creationid="JC Helary" creationdate="20130706T105343Z">
+        <seg>(&lt;&lt;e0&gt;p&lt;s1&gt;&lt;e2&gt;n&lt;/e2&gt;&lt;/s1&gt;&lt;/e0&gt;&gt; &lt;&lt;e3&gt;e&lt;s4&gt;&lt;e5&gt;n&lt;/e5&gt;&lt;/s4&gt;&lt;/e3&gt;&gt;))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(= a b)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085454Z" creationid="JC Helary" creationdate="20130707T085454Z">
+        <seg>(= a b)</seg>
       </tuv>
     </tu>
     <tu>
@@ -254,6 +390,54 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(and &lt;&lt;e0&gt;e&lt;s1&gt;1&lt;/s1&gt;&lt;/e0&gt;&gt; &lt;t2&gt;...&lt;/t2&gt; &lt;&lt;e3&gt;e&lt;s4&gt;&lt;e5&gt;n&lt;/e5&gt;&lt;/s4&gt;&lt;/e3&gt;&gt;)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T111917Z" creationid="JC Helary" creationdate="20130706T111917Z">
+        <seg>(and &lt;&lt;e0&gt;e&lt;s1&gt;1&lt;/s1&gt;&lt;/e0&gt;&gt; &lt;t2&gt;...&lt;/t2&gt; &lt;&lt;e3&gt;e&lt;s4&gt;&lt;e5&gt;n&lt;/e5&gt;&lt;/s4&gt;&lt;/e3&gt;&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(and (&gt; x 5) (&lt; x 10))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085218Z" creationid="JC Helary" creationdate="20130707T085218Z">
+        <seg>(and (&gt; x 5) (&lt; x 10))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(cond ((&lt; x 0) (- x))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T110526Z" creationid="JC Helary" creationdate="20130706T110526Z">
+        <seg>(cond ((&lt; x 0) (- x))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(cond ((= a 4) 6)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085458Z" creationid="JC Helary" creationdate="20130707T085458Z">
+        <seg>(cond ((= a 4) 6)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(cond ((&gt; x 0) x)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T105320Z" creationid="JC Helary" creationdate="20130706T105320Z">
+        <seg>(cond ((&gt; x 0) x)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(cond (&lt;&lt;e0&gt;p&lt;s1&gt;1&lt;/s1&gt;&lt;/e0&gt;&gt; &lt;&lt;e2&gt;e&lt;s3&gt;1&lt;/s3&gt;&lt;/e2&gt;&gt;)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T105340Z" creationid="JC Helary" creationdate="20130706T105340Z">
+        <seg>(cond (&lt;&lt;e0&gt;p&lt;s1&gt;1&lt;/s1&gt;&lt;/e0&gt;&gt; &lt;&lt;e2&gt;e&lt;s3&gt;1&lt;/s3&gt;&lt;/e2&gt;&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(define (&lt;&lt;e0&gt;name&lt;/e0&gt;&gt; &lt;&lt;e1&gt;formal parameters&lt;/e1&gt;&gt;) &lt;&lt;e2&gt;body&lt;/e2&gt;&gt;)</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T104555Z">
@@ -262,10 +446,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(define (&gt;= x y)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085304Z" creationid="JC Helary" creationdate="20130707T085304Z">
+        <seg>(define (&gt;= x y)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(define (a-plus-abs-b a b)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085843Z" creationid="JC Helary" creationdate="20130707T085843Z">
+        <seg>(define (a-plus-abs-b a b)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(define (abs x)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T105317Z" creationid="JC Helary" creationdate="20130706T105317Z">
+        <seg>(define (abs x)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(define (f a)</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130350Z">
         <seg>(define (f a)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(define (p) (p))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T133240Z" creationid="JC Helary" creationdate="20130707T133240Z">
+        <seg>(define (p) (p))</seg>
       </tuv>
     </tu>
     <tu>
@@ -290,6 +506,30 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110440Z">
         <seg>(define (somme-de-carrés x y)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(define (test x y)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T133241Z" creationid="JC Helary" creationdate="20130707T133241Z">
+        <seg>(define (test x y)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(define a 3)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085451Z" creationid="JC Helary" creationdate="20130707T085451Z">
+        <seg>(define a 3)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(define b (+ a 1))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085452Z" creationid="JC Helary" creationdate="20130707T085452Z">
+        <seg>(define b (+ a 1))</seg>
       </tuv>
     </tu>
     <tu>
@@ -326,10 +566,98 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(else -1))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085502Z" creationid="JC Helary" creationdate="20130707T085502Z">
+        <seg>(else -1))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(else 25))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085459Z" creationid="JC Helary" creationdate="20130707T085459Z">
+        <seg>(else 25))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(else x)))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T110527Z" creationid="JC Helary" creationdate="20130706T110527Z">
+        <seg>(else x)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(f 5)</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130340Z">
         <seg>(f 5)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(if (&lt; x 0)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T111147Z" creationid="JC Helary" creationdate="20130706T111147Z">
+        <seg>(if (&lt; x 0)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(if (= x 0)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T133242Z" creationid="JC Helary" creationdate="20130707T133242Z">
+        <seg>(if (= x 0)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(if (and (&gt; b a) (&lt; b (* a b)))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085456Z" creationid="JC Helary" creationdate="20130707T085456Z">
+        <seg>(if (and (&gt; b a) (&lt; b (* a b)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(if &lt;&lt;e0&gt;predicate&lt;/e0&gt;&gt; &lt;&lt;e1&gt;consequent&lt;/e1&gt;&gt; &lt;&lt;e2&gt;alternative&lt;/e2&gt;&gt;)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T023950Z" creationid="JC Helary" creationdate="20130706T111304Z">
+        <seg>(if &lt;&lt;e0&gt;proposition&lt;/e0&gt;&gt; &lt;&lt;e1&gt;conséquence&lt;/e1&gt;&gt; &lt;&lt;e2&gt;alternative&lt;/e2&gt;&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(not &lt;&lt;e0&gt;e&lt;/e0&gt;&gt;)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T112305Z" creationid="JC Helary" creationdate="20130706T112305Z">
+        <seg>(not &lt;&lt;e0&gt;e&lt;/e0&gt;&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(not (&lt; x y)))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085319Z" creationid="JC Helary" creationdate="20130707T085319Z">
+        <seg>(not (&lt; x y)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(or &lt;&lt;e0&gt;e&lt;s1&gt;1&lt;/s1&gt;&lt;/e0&gt;&gt; &lt;t2&gt;...&lt;/t2&gt; &lt;&lt;e3&gt;e&lt;s4&gt;&lt;e5&gt;n&lt;/e5&gt;&lt;/s4&gt;&lt;/e3&gt;&gt;)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T112149Z" creationid="JC Helary" creationdate="20130706T112149Z">
+        <seg>(or &lt;&lt;e0&gt;e&lt;s1&gt;1&lt;/s1&gt;&lt;/e0&gt;&gt; &lt;t2&gt;...&lt;/t2&gt; &lt;&lt;e3&gt;e&lt;s4&gt;&lt;e5&gt;n&lt;/e5&gt;&lt;/s4&gt;&lt;/e3&gt;&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(or (&gt; x y) (= x y)))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085306Z" creationid="JC Helary" creationdate="20130707T085306Z">
+        <seg>(or (&gt; x y) (= x y)))</seg>
       </tuv>
     </tu>
     <tu>
@@ -390,6 +718,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(test 0 (p))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T133253Z" creationid="JC Helary" creationdate="20130707T133253Z">
+        <seg>(test 0 (p))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>0</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T133243Z" creationid="JC Helary" creationdate="20130707T133243Z">
+        <seg>0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1.1.1  Expressions</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130514T052655Z">
@@ -432,8 +776,8 @@
       <tuv lang="EN-US">
         <seg>1.1.6  Conditional Expressions and Predicates</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T131928Z">
-        <seg>1.1.6 Expressions conditionnelles et prédicats</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T023549Z">
+        <seg>1.1.6 Expressions conditionnelles et propositions</seg>
       </tuv>
     </tu>
     <tu>
@@ -710,6 +1054,46 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;b0&gt;Exercise 1.1.&lt;/b0&gt;  Below is a sequence of expressions.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085351Z" creationid="JC Helary" creationdate="20130707T085351Z">
+        <seg>&lt;b0&gt;Exercice 1.1.&lt;/b0&gt; Voici une suite d'expressions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b0&gt;Exercise 1.2.&lt;/b0&gt;  Translate the following expression into prefix form</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085545Z" creationid="JC Helary" creationdate="20130707T085545Z">
+        <seg>&lt;b0&gt;Exercice 1.2.&lt;/b0&gt; Traduire les expressions suivantes en notation inversée</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b0&gt;Exercise 1.3.&lt;/b0&gt;  Define a procedure that takes three numbers as arguments and returns the sum of the squares of the two larger numbers.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085655Z" creationid="JC Helary" creationdate="20130707T085655Z">
+        <seg>&lt;b0&gt;Exercice 1.3.&lt;/b0&gt; Définir une procédure qui prend trois nombres comme argument et qui retourne la somme des carrés des deux nombres les plus grands.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b0&gt;Exercise 1.4.&lt;/b0&gt;  &lt;a1&gt;&lt;/a1&gt;&lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;Observe that our model of evaluation allows for combinations whose operators are compound expressions.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085745Z" creationid="JC Helary" creationdate="20130707T085745Z">
+        <seg>&lt;b0&gt;Exercice 1.4.&lt;/b0&gt; &lt;a1&gt;&lt;/a1&gt;&lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;Observer que notre modèle d'évaluation permet les combinaisons dont les opérateurs sont des expressions composées.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b0&gt;Exercise 1.5.&lt;/b0&gt;  &lt;a1&gt;&lt;/a1&gt;&lt;a2&gt;&lt;/a2&gt;Ben Bitdiddle has invented a test to determine whether the interpreter he is faced with is using applicative-order evaluation or normal-order evaluation.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T133226Z" creationid="JC Helary" creationdate="20130707T133226Z">
+        <seg>&lt;b0&gt;Exercice 1.5.&lt;/b0&gt; &lt;a1&gt;&lt;/a1&gt;&lt;a2&gt;&lt;/a2&gt;Bernard Bitron a inventé un test pour déterminer si l'interpréteur qu'il utilise évalue selon l'ordre applicatif ou selon l'ordre normal.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;b0&gt;Figure 1.1:&lt;/b0&gt;  Tree representation, showing the value of each subcombination.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T125901Z">
@@ -758,6 +1142,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;t2&gt;Not&lt;/t2&gt; is an ordinary procedure.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T135932Z" creationid="JC Helary" creationdate="20130706T135932Z">
+        <seg>&lt;t2&gt;Not&lt;/t2&gt; est une procédure normale.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A critical aspect of a programming language is the means it provides for using &lt;a0&gt;&lt;/a0&gt;names to refer to computational objects.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130521T054324Z">
@@ -798,6 +1190,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Another way to write the absolute-value procedure is</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T110523Z" creationid="JC Helary" creationdate="20130706T110523Z">
+        <seg>Une autre manière d'écrire la procédure valeur-absolue est</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Applicative order versus normal order</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T102926Z">
@@ -810,6 +1210,22 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124543Z">
         <seg>Considérons dans notre cas qu'en évaluant des combinaisons l'interpréteur suit lui aussi une procédure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As an example of how these are used, the condition that a number &lt;e0&gt;x&lt;/e0&gt; be in the range 5 &lt; &lt;e1&gt;x&lt;/e1&gt; &lt; 10 may be expressed as</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085216Z" creationid="JC Helary" creationdate="20130707T085216Z">
+        <seg>Pour voir comment utiliser ces expressions, voici une manière d'exprimer qu'un nombre &lt;e0&gt;x&lt;/e0&gt; se trouve dans l'intervalle 5 &lt; &lt;e1&gt;x&lt;/e1&gt; &lt; 10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As another example, we can define a predicate to test whether one number is greater than or equal to another as</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085303Z" creationid="JC Helary" creationdate="20130707T085303Z">
+        <seg>On peut aussi définir une proposition pour vérifier si un nombre est supérieur ou égal à un autre de la manière suivante</seg>
       </tuv>
     </tu>
     <tu>
@@ -830,6 +1246,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assume that the sequence is to be evaluated in the order in which it is presented.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085447Z" creationid="JC Helary" creationdate="20130707T085447Z">
+        <seg>Considérons que la suite est évaluée dans l'ordre dans lequel elle est présentée.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Cambridge, Massachusetts     London, England</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T154201Z">
@@ -842,6 +1266,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110659Z">
         <seg>Les procédures composées sont utilisées exactement de la même manière que les procédures primitives.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Conditional expressions are evaluated as follows.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T105614Z" creationid="JC Helary" creationdate="20130706T105614Z">
+        <seg>Les expressions conditionnelles sont évaluées de la manière suivante.</seg>
       </tuv>
     </tu>
     <tu>
@@ -966,6 +1398,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For instance, we cannot define a procedure that computes the &lt;a0&gt;&lt;/a0&gt;absolute value of a number by testing whether the number is positive, negative, or zero and taking different actions in the different cases according to the rule</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T073931Z" creationid="JC Helary" creationdate="20130706T073931Z">
+        <seg>Par exemple, nous ne pouvons par définir de procédure qui calcule &lt;a0&gt;&lt;/a0&gt;la valeur absolue d'un nombre en testant si le nombre est positif, négatif ou égal à zéro et en effectuant des actions différentes selon les cas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Harold Abelson and Gerald Jay Sussman</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T154109Z">
@@ -982,6 +1422,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>He defines the following two procedures:</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T133239Z" creationid="JC Helary" creationdate="20130707T133239Z">
+        <seg>Il définit les deux procédures suivantes :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here are further examples of the use of &lt;t0&gt;define&lt;/t0&gt;:</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130522T151644Z">
@@ -990,10 +1438,82 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here is yet another way to write the absolute-value procedure:</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T111144Z" creationid="JC Helary" creationdate="20130706T111144Z">
+        <seg>Voici encore une autre manière d'écrire la procédure valeur-absolue :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, there are two points that should be stressed:</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T005533Z">
         <seg>Cependant, nous devons insister sur deux points :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If &lt;&lt;e4&gt;p&lt;s5&gt;2&lt;/s5&gt;&lt;/e4&gt;&gt;'s value is also false, then &lt;&lt;e6&gt;p&lt;s7&gt;3&lt;/s7&gt;&lt;/e6&gt;&gt; is evaluated.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T105743Z" creationid="JC Helary" creationdate="20130706T105707Z">
+        <seg>Si la valeur de &lt;&lt;e4&gt;p&lt;s5&gt;2&lt;/s5&gt;&lt;/e4&gt;&gt; est également fausse alors &lt;&lt;e6&gt;p&lt;s7&gt;3&lt;/s7&gt;&lt;/e6&gt;&gt; est évaluée.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If all &lt;&lt;e4&gt;e&lt;/e4&gt;&gt;'s evaluate to false, the value of the &lt;t5&gt;or&lt;/t5&gt; expression is false.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T112302Z" creationid="JC Helary" creationdate="20130706T112302Z">
+        <seg>Si toutes les &lt;&lt;e4&gt;e&lt;/e4&gt;&gt; s'évaluent à faux, la valeur de l'expression &lt;t5&gt;or&lt;/t5&gt; est faux.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If all &lt;&lt;e4&gt;e&lt;/e4&gt;&gt;'s evaluate to true values, the value of the &lt;t5&gt;and&lt;/t5&gt; expression is the value of the last one.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T024216Z" creationid="JC Helary" creationdate="20130706T112147Z">
+        <seg>Si toutes les &lt;&lt;e4&gt;e&lt;/e4&gt;&gt; s'évaluent à des valeurs vraies, la valeur de l'expression &lt;t5&gt;and&lt;/t5&gt; est la valeur de la dernière.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If any &lt;&lt;e1&gt;e&lt;/e1&gt;&gt; evaluates to a true value, that value is returned as the value of the &lt;t2&gt;or&lt;/t2&gt; expression, and the rest of the &lt;&lt;e3&gt;e&lt;/e3&gt;&gt;'s are not evaluated.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T024231Z" creationid="JC Helary" creationdate="20130706T112241Z">
+        <seg>Si une &lt;&lt;e1&gt;e&lt;/e1&gt;&gt; s'évalue à une valeur vrai, cette valeur est retournée en tant que valeur de l'expression &lt;t2&gt;or&lt;/t2&gt; et le reste des &lt;&lt;e3&gt;e&lt;/e3&gt;&gt; ne sont pas évaluées.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If any &lt;&lt;e1&gt;e&lt;/e1&gt;&gt; evaluates to false, the value of the &lt;t2&gt;and&lt;/t2&gt; expression is false, and the rest of the &lt;&lt;e3&gt;e&lt;/e3&gt;&gt;'s are not evaluated.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T112047Z" creationid="JC Helary" creationdate="20130706T112047Z">
+        <seg>Si une &lt;&lt;e1&gt;e&lt;/e1&gt;&gt; s'évalue à faux, la valeur de l'expression &lt;t2&gt;and&lt;/t2&gt; est fausse et le reste des &lt;&lt;e3&gt;e&lt;/e3&gt;&gt; ne sont pas évaluées.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If its value is false, then &lt;&lt;e2&gt;p&lt;s3&gt;2&lt;/s3&gt;&lt;/e2&gt;&gt; is evaluated.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T105659Z" creationid="JC Helary" creationdate="20130706T105659Z">
+        <seg>Si sa valeur est fausse alors &lt;&lt;e2&gt;p&lt;s3&gt;2&lt;/s3&gt;&lt;/e2&gt;&gt; est évalué.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If none of the &lt;&lt;e11&gt;p&lt;/e11&gt;&gt;'s is found to be true, the value of the &lt;t12&gt;cond&lt;/t12&gt; is undefined.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T024144Z" creationid="JC Helary" creationdate="20130706T110130Z">
+        <seg>Si aucune des &lt;&lt;e11&gt;p&lt;/e11&gt;&gt; n'est vraie alors la valeur de &lt;t12&gt;cond&lt;/t12&gt; est indéfinie.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the &lt;&lt;e3&gt;predicate&lt;/e3&gt;&gt; evaluates to a true value, the interpreter then evaluates the &lt;a4&gt;&lt;/a4&gt;&lt;&lt;e5&gt;consequent&lt;/e5&gt;&gt; and returns its value.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T024031Z" creationid="JC Helary" creationdate="20130706T111525Z">
+        <seg>Si la &lt;&lt;e3&gt;proposition&lt;/e3&gt;&gt; s'évalue à une valeur vraie alors l'interpréteur évalue la &lt;a4&gt;&lt;/a4&gt;&lt;&lt;e5&gt;conséquence&lt;/e5&gt;&gt; et retourne sa valeur.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1022,6 +1542,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In addition to primitive predicates such as &lt;t0&gt;&lt;&lt;/t0&gt;, &lt;t1&gt;=&lt;/t1&gt;, and &lt;t2&gt;&gt;&lt;/t2&gt;, there are logical composition operations, which enable us to construct compound predicates.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T024049Z" creationid="JC Helary" creationdate="20130706T111858Z">
+        <seg>En plus des propositions primitives tels que &lt;t0&gt;&lt;&lt;/t0&gt;, &lt;t1&gt;=&lt;/t1&gt; et &lt;t2&gt;&gt;&lt;/t2&gt;, il existe des opérations de composition logiques qui nous permettent de construire des propositions composées.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In an interactive language such as Lisp, it is meaningless to speak of the value of an expression such as &lt;t3&gt;(+ x 1)&lt;/t3&gt; without specifying any information about the environment that would provide a meaning for the symbol &lt;t4&gt;x&lt;/t4&gt; (or even for the symbol &lt;t5&gt;+&lt;/t5&gt;).</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T043559Z">
@@ -1034,6 +1562,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T103226Z">
         <seg>Comparé à d'autres langages de programmation, Lisp a une syntaxe très simple ; la règle d'évaluation des expressions peut être décrite à l'aide d'une règle générale simple et de règles spéciales pour un petit nombre de formes spéciales.&lt;a4&gt;&lt;s5&gt;&lt;s6&gt;11&lt;/s6&gt;&lt;/s5&gt;&lt;/a4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In fact, any expression that always evaluates to a true value could be used as the &lt;&lt;e9&gt;p&lt;/e9&gt;&gt; here.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T024200Z" creationid="JC Helary" creationdate="20130706T111133Z">
+        <seg>En fait, toute expression qui s'évalue toujours à une valeur vraie peut être utilisée en tant que &lt;&lt;e9&gt;p&lt;/e9&gt;&gt; ici.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1166,6 +1702,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is called &lt;a1&gt;&lt;/a1&gt;&lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;&lt;t4&gt;cond&lt;/t4&gt; (which stands for ``conditional''), and it is used as follows:</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T105315Z" creationid="JC Helary" creationdate="20130706T105315Z">
+        <seg>Cette forme se nomme &lt;a1&gt;&lt;/a1&gt;&lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;&lt;t4&gt;cond&lt;/t4&gt; (pour « condition ») et elle et utilisée de la manière suivante :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is we humans who get confused by still relatively simple expressions such as</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T085129Z">
@@ -1238,6 +1782,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Notice that &lt;t0&gt;and&lt;/t0&gt; and &lt;t1&gt;or&lt;/t1&gt; are special forms, not procedures, because the subexpressions are not necessarily all evaluated.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T135913Z" creationid="JC Helary" creationdate="20130706T135913Z">
+        <seg>Remarquez que &lt;t0&gt;and&lt;/t0&gt; et &lt;t1&gt;or&lt;/t1&gt; sont des formes spéciales, pas des procédures, car leurs sous-expressions ne sont pas nécessairement toutes évaluées.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Notice that the evaluation rule given above does not handle definitions.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T043730Z">
@@ -1288,8 +1840,8 @@
       <tuv lang="EN-US">
         <seg>On the other hand, normal-order evaluation can be an extremely valuable tool, and we will investigate some of its implications in chapters 3 and 4.&lt;a2&gt;&lt;s3&gt;&lt;s4&gt;16&lt;/s4&gt;&lt;/s3&gt;&lt;/a2&gt;</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="jchelary" changedate="20130625T131822Z">
-        <seg>Cependant, l'évaluation en ordre normal peut être un outil précieux et nous étudierons certaines de ses implications dans les chapitres 3 et 4.</seg>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T111629Z">
+        <seg>Cependant, l'évaluation en ordre normal peut être un outil précieux et nous étudierons certaines de ses implications dans les chapitres 3 et 4.&lt;a2&gt;&lt;s3&gt;&lt;s4&gt;16&lt;/s4&gt;&lt;/s3&gt;&lt;/a2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1322,6 +1874,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123512Z">
         <seg>L'un d'entre eux est de s'accommoder de &lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;procédures qui ont un nombre quelconque d'arguments comme dans les exemples suivants :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Otherwise it evaluates the &lt;a6&gt;&lt;/a6&gt;&lt;&lt;e7&gt;alternative&lt;/e7&gt;&gt; and returns its value.&lt;a8&gt;&lt;s9&gt;&lt;s10&gt;19&lt;/s10&gt;&lt;/s9&gt;&lt;/a8&gt;</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T111744Z" creationid="JC Helary" creationdate="20130706T111548Z">
+        <seg>Autrement il évalue l'&lt;a6&gt;&lt;/a6&gt;&lt;&lt;e7&gt;alternative&lt;/e7&gt;&gt; et retourne sa valeur.&lt;a8&gt;&lt;s9&gt;&lt;s10&gt;19&lt;/s10&gt;&lt;/s9&gt;&lt;/a8&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1414,6 +1974,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The absolute-value procedure &lt;t1&gt;abs&lt;/t1&gt; makes use of the &lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;&lt;a4&gt;&lt;/a4&gt;&lt;a5&gt;&lt;/a5&gt;&lt;a6&gt;&lt;/a6&gt;&lt;a7&gt;&lt;/a7&gt;&lt;a8&gt;&lt;/a8&gt;&lt;a9&gt;&lt;/a9&gt;&lt;a10&gt;&lt;/a10&gt;primitive predicates &lt;t11&gt;&gt;&lt;/t11&gt;, &lt;t12&gt;&lt;&lt;/t12&gt;, and &lt;t13&gt;=&lt;/t13&gt;.&lt;a14&gt;&lt;s15&gt;&lt;s16&gt;18&lt;/s16&gt;&lt;/s15&gt;&lt;/a14&gt; These take two numbers as arguments and test whether the first number is, respectively, greater than, less than, or equal to the second number, returning true or false accordingly.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T023943Z" creationid="JC Helary" creationdate="20130706T110458Z">
+        <seg>La procédure valeur-absolue &lt;t1&gt;abs&lt;/t1&gt; utilise les &lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;&lt;a4&gt;&lt;/a4&gt;&lt;a5&gt;&lt;/a5&gt;&lt;a6&gt;&lt;/a6&gt;&lt;a7&gt;&lt;/a7&gt;&lt;a8&gt;&lt;/a8&gt;&lt;a9&gt;&lt;/a9&gt;&lt;a10&gt;&lt;/a10&gt;propositions primitives &lt;t11&gt;&gt;&lt;/t11&gt;, &lt;t12&gt;&lt;&lt;/t12&gt; et &lt;t13&gt;=&lt;/t13&gt;.&lt;a14&gt;&lt;s15&gt;&lt;s16&gt;18&lt;/s16&gt;&lt;/s15&gt;&lt;/a14&gt; Ces propositions requièrent deux nombres comme arguments et vérifient si le premier nombre est respectivement supérieur, inférieur ou égal au second nombre, retournant vrai ou faux selon les cas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The convention of placing the operator to the left of the operands is known as &lt;a0&gt;&lt;/a0&gt;&lt;e1&gt;prefix notation&lt;/e1&gt;, and it may be somewhat confusing at first because it departs significantly from the customary mathematical convention.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T045654Z">
@@ -1422,10 +1990,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The expressive power of the class of procedures that we can define at this point is very limited, because we have no way to make tests and to perform different operations depending on the result of a test.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T073819Z" creationid="JC Helary" creationdate="20130706T073819Z">
+        <seg>Le pouvoir expressif de la classe de procédures que nous avons pu définir jusqu'ici est très limité car nous n'avons aucun moyen d'effectuer des tests et des opérations en fonction du résultat des tests.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The first expression in each pair is a &lt;a8&gt;&lt;/a8&gt;&lt;e9&gt;predicate&lt;/e9&gt; -- that is, an expression whose value is interpreted as either true or false.&lt;a10&gt;&lt;s11&gt;&lt;s12&gt;17&lt;/s12&gt;&lt;/s11&gt;&lt;/a10&gt;</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T023624Z" creationid="JC Helary" creationdate="20130706T105555Z">
+        <seg>La première expression dans chaque paire est une &lt;a8&gt;&lt;/a8&gt;&lt;e9&gt;proposition&lt;/e9&gt; -- c'est-à-dire une expression qui est soit vraie soit fausse.&lt;a10&gt;&lt;s11&gt;&lt;s12&gt;17&lt;/s12&gt;&lt;/s11&gt;&lt;/a10&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The general form of a conditional expression is</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T105337Z" creationid="JC Helary" creationdate="20130706T105337Z">
+        <seg>La forme générale d'une expression conditionnelle est</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The general form of a procedure definition is</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T104534Z">
         <seg>La forme générale d'une définition de procédure est</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The general form of an &lt;t2&gt;if&lt;/t2&gt; expression is</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T111249Z" creationid="JC Helary" creationdate="20130706T111249Z">
+        <seg>La forme générale d'une expression &lt;t2&gt;if&lt;/t2&gt; est</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The interpreter evaluates the expressions &lt;&lt;e0&gt;e&lt;/e0&gt;&gt; one at a time, in left-to-right order.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T111949Z" creationid="JC Helary" creationdate="20130706T111949Z">
+        <seg>L'interprète évalue les expressions &lt;&lt;e0&gt;e&lt;/e0&gt;&gt; une par une, de gauche à droite.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1450,6 +2058,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T011427Z">
         <seg>L'élément le plus à gauche de la liste est appelé l'&lt;a3&gt;&lt;/a3&gt;&lt;e4&gt;opérateur&lt;/e4&gt; et les autres éléments sont appelés les &lt;a5&gt;&lt;/a5&gt;&lt;e6&gt;opérandes&lt;/e6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The predicate &lt;&lt;e0&gt;p&lt;s1&gt;1&lt;/s1&gt;&lt;/e0&gt;&gt; is evaluated first.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T023632Z" creationid="JC Helary" creationdate="20130706T105642Z">
+        <seg>La proposition &lt;&lt;e0&gt;p&lt;s1&gt;1&lt;/s1&gt;&lt;/e0&gt;&gt; est évaluée en premier.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1510,10 +2126,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The three most frequently used are these:</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T111915Z" creationid="JC Helary" creationdate="20130706T111915Z">
+        <seg>Les trois plus fréquents sont :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The value of a &lt;t0&gt;not&lt;/t0&gt; expression is true when the expression &lt;&lt;e1&gt;e&lt;/e1&gt;&gt; evaluates to false, and false otherwise.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T135728Z" creationid="JC Helary" creationdate="20130706T135728Z">
+        <seg>La valeur d'une expression &lt;t0&gt;not&lt;/t0&gt; est vraie quand l'expression &lt;&lt;e1&gt;e&lt;/e1&gt;&gt; est fausse, et fausse autrement.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The various kinds of expressions (each with its associated evaluation rule) constitute the &lt;a3&gt;&lt;/a3&gt;syntax of the programming language.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T103043Z">
         <seg>Les différents types d'expressions (chacun associé à une règle d'évaluation) constituent la &lt;a3&gt;&lt;/a3&gt;syntaxe du langage de programmation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The word &lt;e0&gt;predicate&lt;/e0&gt; is used for procedures that return true or false, as well as for expressions that evaluate to true or false.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T023917Z" creationid="JC Helary" creationdate="20130706T110213Z">
+        <seg>Le mot &lt;e0&gt;proposition&lt;/e0&gt; est utilisé pour des procédures qui retournent vrai ou faux ainsi que pour des expressions qui s'évaluent à vrai ou faux.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Then he evaluates the expression</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T133252Z" creationid="JC Helary" creationdate="20130707T133252Z">
+        <seg>Puis évalue l'expression</seg>
       </tuv>
     </tu>
     <tu>
@@ -1546,6 +2194,22 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T110435Z">
         <seg>Cette méthode d'évaluation où l'on « développe totalement avant de réduire » est connue sous le nome de &lt;a0&gt;&lt;/a0&gt;&lt;e1&gt;évaluation en ordre normal&lt;/e1&gt;, en opposition à la méthode « évalue les arguments et applique ensuite » utilisée en fait par l'interpréteur, qui est appelée &lt;a2&gt;&lt;/a2&gt;&lt;e3&gt;évaluation dans l'ordre d'application&lt;/e3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This causes the &lt;t7&gt;cond&lt;/t7&gt; to return as its value the value of the corresponding &lt;&lt;e8&gt;e&lt;/e8&gt;&gt; whenever all previous clauses have been bypassed.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T111047Z" creationid="JC Helary" creationdate="20130706T111047Z">
+        <seg>Ceci force le &lt;t7&gt;cond&lt;/t7&gt; à retourner en tant que sa valeur, la valeur du &lt;&lt;e8&gt;e&lt;/e8&gt;&gt; correspondant quand toutes les clauses précédentes ont été ignorées.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This construct is called a &lt;e0&gt;case analysis&lt;/e0&gt;, and there is a special form in Lisp for notating such a case analysis.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T105238Z" creationid="JC Helary" creationdate="20130706T105238Z">
+        <seg>Ce genre de construction est appelé une &lt;e0&gt;analyse de cas&lt;/e0&gt; et il existe une forme spéciale en Lisp pour les noter.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1586,6 +2250,22 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130521T052915Z">
         <seg>Ce mode de fonctionnement est souvent décrit en disant que l'interpréteur fonctionne dans en boucle &lt;a0&gt;&lt;/a0&gt;&lt;a1&gt;&lt;/a1&gt;&lt;e2&gt;lecture-évaluation-affichage&lt;/e2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This process continues until a predicate is found whose value is true, in which case the interpreter returns the value of the corresponding &lt;a8&gt;&lt;/a8&gt;&lt;e9&gt;consequent expression&lt;/e9&gt; &lt;&lt;e10&gt;e&lt;/e10&gt;&gt; of the clause as the value of the conditional expression.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T023833Z" creationid="JC Helary" creationdate="20130706T110053Z">
+        <seg>Ce processus se poursuit jusqu'à ce que l'interpréteur trouve une proposition vraie. Il retourne alors la valeur de &lt;a8&gt;&lt;/a8&gt;&lt;e9&gt;l'expression conséquence&lt;/e9&gt; &lt;&lt;e10&gt;e&lt;/e10&gt;&gt; correspondante dans la clause en tant que valeur de l'expression conditionnelle.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This uses the special form &lt;t0&gt;if&lt;/t0&gt;, a restricted type of conditional that can be used when there are precisely &lt;a1&gt;&lt;/a1&gt;two cases in the case analysis.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T111237Z" creationid="JC Helary" creationdate="20130706T111237Z">
+        <seg>On utilise la forme spéciale &lt;t0&gt;if&lt;/t0&gt;, un type restreint de conditionnel qui peut être utilisé quand il y a précisément &lt;a1&gt;&lt;/a1&gt;deux cas dans l'analyse de cas.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1646,6 +2326,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To evaluate an &lt;t0&gt;if&lt;/t0&gt; expression, the interpreter starts by evaluating the &lt;a1&gt;&lt;/a1&gt;&lt;&lt;e2&gt;predicate&lt;/e2&gt;&gt; part of the expression.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T023959Z" creationid="JC Helary" creationdate="20130706T111418Z">
+        <seg>L'évaluation d'une expression &lt;t0&gt;if&lt;/t0&gt; commence par l'évaluation de la partie &lt;a1&gt;&lt;/a1&gt;&lt;&lt;e2&gt;proposition&lt;/e2&gt;&gt; de l'expression.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To illustrate this process, let's evaluate the combination</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130624T234325Z">
@@ -1674,6 +2362,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130522T151514Z">
         <seg>Saisir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use this observation to describe the behavior of the following procedure:</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085802Z" creationid="JC Helary" creationdate="20130707T085802Z">
+        <seg>Utiliser cette observation pour décrire le comportement de la procédure suivante :</seg>
       </tuv>
     </tu>
     <tu>
@@ -1806,6 +2502,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>What is the result printed by the interpreter in response to each expression?</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085419Z" creationid="JC Helary" creationdate="20130707T085419Z">
+        <seg>Quel est le résultat présenté par l'interpréteur en réponse à chacune de ces expressions ?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You type an &lt;e0&gt;expression&lt;/e0&gt;, and the interpreter responds by displaying the result of its &lt;e1&gt;evaluating&lt;/e1&gt; that expression.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123543Z">
@@ -1846,10 +2550,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>a)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085457Z" creationid="JC Helary" creationdate="20130707T085457Z">
+        <seg>a)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>and finally to</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T001122Z">
         <seg>et finalement à</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>b</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085456Z" creationid="JC Helary" creationdate="20130707T085456Z">
+        <seg>b</seg>
       </tuv>
     </tu>
     <tu>
@@ -1866,6 +2586,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130522T151746Z">
         <seg>circonference</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>consisting of the symbol &lt;t0&gt;cond&lt;/t0&gt; followed by &lt;a1&gt;&lt;/a1&gt;parenthesized pairs of expressions &lt;t2&gt;(&lt;&lt;e3&gt;p&lt;/e3&gt;&gt; &lt;&lt;e4&gt;e&lt;/e4&gt;&gt;)&lt;/t2&gt; called &lt;a5&gt;&lt;/a5&gt;&lt;a6&gt;&lt;/a6&gt;&lt;e7&gt;clauses&lt;/e7&gt;.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T105447Z" creationid="JC Helary" creationdate="20130706T105447Z">
+        <seg>qui consiste du symbole &lt;t0&gt;cond&lt;/t0&gt; suivi par &lt;a1&gt;&lt;/a1&gt;des paires d'expressions entre parenthèses &lt;t2&gt;(&lt;&lt;e3&gt;p&lt;/e3&gt;&gt; &lt;&lt;e4&gt;e&lt;/e4&gt;&gt;)&lt;/t2&gt; appelées &lt;a5&gt;&lt;/a5&gt;&lt;a6&gt;&lt;/a6&gt;&lt;e7&gt;clauses&lt;/e7&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1906,6 +2634,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T154059Z">
         <seg>des programmes informatiques</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>or alternatively as</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085317Z" creationid="JC Helary" creationdate="20130707T085317Z">
+        <seg>ou alternativement de cette manière</seg>
       </tuv>
     </tu>
     <tu>
@@ -1974,6 +2710,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>which could be expressed in English as ``If &lt;e0&gt;x&lt;/e0&gt; is less than zero return - &lt;e1&gt;x&lt;/e1&gt;; otherwise return &lt;e2&gt;x&lt;/e2&gt;.'' &lt;a3&gt;&lt;/a3&gt;&lt;t4&gt;Else&lt;/t4&gt; is a special symbol that can be used in place of the &lt;&lt;e5&gt;p&lt;/e5&gt;&gt; in the final clause of a &lt;t6&gt;cond&lt;/t6&gt;.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T110746Z" creationid="JC Helary" creationdate="20130706T110746Z">
+        <seg>qui peut s'exprimer en français de la manière suivante : « si &lt;e0&gt;x&lt;/e0&gt; est inférieur à zéro, retourne - &lt;e1&gt;x&lt;/e1&gt; autrement retourne &lt;e2&gt;x&lt;/e2&gt;. » &lt;a3&gt;&lt;/a3&gt;&lt;t4&gt;Else&lt;/t4&gt; est un symbole spécial qui peut être utilisé à la place de &lt;&lt;e5&gt;p&lt;/e5&gt;&gt; dans la clause finale d'un &lt;t6&gt;cond&lt;/t6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>which reduces by multiplication to</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T001117Z">
@@ -2010,6 +2754,22 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T105823Z">
         <seg>se déroulerait selon la suite d'expansions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>x))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T111151Z" creationid="JC Helary" creationdate="20130706T111151Z">
+        <seg>x))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>y))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T133244Z" creationid="JC Helary" creationdate="20130707T133244Z">
+        <seg>y))</seg>
       </tuv>
     </tu>
     <tu>
