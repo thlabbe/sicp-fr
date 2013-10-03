@@ -1334,6 +1334,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Explain your answer.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="jchelary" changedate="20131003T105056Z" creationid="jchelary" creationdate="20131003T105056Z">
+        <seg>Expliquez votre réponse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Expressions representing numbers may be combined with an &lt;a0&gt;&lt;/a0&gt;expression representing a &lt;a1&gt;&lt;/a1&gt;&lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;&lt;a4&gt;&lt;/a4&gt;&lt;a5&gt;&lt;/a5&gt;primitive procedure (such as &lt;t6&gt;+&lt;/t6&gt; or &lt;t7&gt;*&lt;/t7&gt;) to form a compound expression that represents the application of the procedure to those numbers.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123534Z">
