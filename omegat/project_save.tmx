@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.5" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.1.1_2" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -2506,6 +2506,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T103452Z">
         <seg>Nous aborderons ceci de manière plus approfondie dans les chapitres 3 et 4 quand nous examinerons l'implémentation d'un interpréteur en détail.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What behavior will Ben observe with an interpreter that uses applicative-order evaluation?</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="jchelary" changedate="20140530T050429Z" creationid="jchelary" creationdate="20140530T050429Z">
+        <seg>Quel comportement observera Ben avec un interpréteur qui utilise l'ordre d'application pour l'évaluation ?</seg>
       </tuv>
     </tu>
     <tu>
