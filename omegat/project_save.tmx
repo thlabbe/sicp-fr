@@ -998,14 +998,6 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>&lt;a0&gt;&lt;/a0&gt;&lt;a1&gt;&lt;/a1&gt;(Assume that the evaluation rule for the special form &lt;t2&gt;if&lt;/t2&gt; is the same whether the interpreter is using normal or applicative order: The predicate expression is evaluated first, and the result determines whether to evaluate the consequent or the alternative expression.)</seg>
-      </tuv>
-      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T062506Z" creationid="suzume" creationdate="20140613T062506Z">
-        <seg>&lt;a0&gt;&lt;/a0&gt;&lt;a1&gt;&lt;/a1&gt;(Assume that the evaluation rule for the special form if is the same whether the interpreter is using normal or applicative order: The predicate expression is evaluated first, and the result determines whether to evaluate the consequent or the alternative expression.)</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>&lt;a0&gt;&lt;i1&gt;&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T153009Z">
