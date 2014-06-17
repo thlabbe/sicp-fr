@@ -6,6 +6,30 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>((1.3333 + 1.5)/2) = 1.4167</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140616T033332Z" creationid="suzume" creationdate="20140616T033332Z">
+        <seg>((1.3333 + 1.5)/2) = 1.4167</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>((1.4167 + 1.4118)/2) = 1.4142</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140616T033334Z" creationid="suzume" creationdate="20140616T033334Z">
+        <seg>((1.4167 + 1.4118)/2) = 1.4142</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>((2 + 1)/2) = 1.5</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140616T033329Z" creationid="suzume" creationdate="20140616T033329Z">
+        <seg>((2 + 1)/2) = 1.5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>((&lt; a b) b)</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085502Z" creationid="JC Helary" creationdate="20130707T085502Z">
@@ -334,6 +358,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(2/1) = 2</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140616T033328Z" creationid="suzume" creationdate="20140616T033328Z">
+        <seg>(2/1) = 2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(2/1.4167) = 1.4118</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140616T033333Z" creationid="suzume" creationdate="20140616T033333Z">
+        <seg>(2/1.4167) = 1.4118</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(2/1.5) = 1.3333</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140616T033331Z" creationid="suzume" creationdate="20140616T033331Z">
+        <seg>(2/1.5) = 1.3333</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(&lt;&lt;e0&gt;p&lt;s1&gt;2&lt;/s1&gt;&lt;/e0&gt;&gt; &lt;&lt;e2&gt;e&lt;s3&gt;2&lt;/s3&gt;&lt;/e2&gt;&gt;)</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T105342Z" creationid="JC Helary" creationdate="20130706T105342Z">
@@ -346,6 +394,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T105343Z" creationid="JC Helary" creationdate="20130706T105343Z">
         <seg>(&lt;&lt;e0&gt;p&lt;s1&gt;&lt;e2&gt;n&lt;/e2&gt;&lt;/s1&gt;&lt;/e0&gt;&gt; &lt;&lt;e3&gt;e&lt;s4&gt;&lt;e5&gt;n&lt;/e5&gt;&lt;/s4&gt;&lt;/e3&gt;&gt;))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(= (square y) x))))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140616T033310Z" creationid="suzume" creationdate="20140616T033310Z">
+        <seg>(= (carré y) x))))</seg>
       </tuv>
     </tu>
     <tu>
@@ -486,6 +542,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(define (sqrt-iter guess x)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T135643Z" creationid="suzume" creationdate="20140613T135643Z">
+        <seg>(define (rccr-iter estimation x)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(define (sqrt x)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T134523Z" creationid="suzume" creationdate="20140613T134523Z">
+        <seg>(define (rccr x)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(define (square x) (* x x))</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T104205Z">
@@ -622,6 +694,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(if (good-enough? guess x)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T135700Z" creationid="suzume" creationdate="20140613T135700Z">
+        <seg>(if (assez-bonne? estimation x)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(if &lt;&lt;e0&gt;predicate&lt;/e0&gt;&gt; &lt;&lt;e1&gt;consequent&lt;/e1&gt;&gt; &lt;&lt;e2&gt;alternative&lt;/e2&gt;&gt;)</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T023950Z" creationid="JC Helary" creationdate="20130706T111304Z">
@@ -658,6 +738,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085306Z" creationid="JC Helary" creationdate="20130707T085306Z">
         <seg>(or (&gt; x y) (= x y)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(sqrt-iter (improve guess x)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T135719Z" creationid="suzume" creationdate="20140613T135719Z">
+        <seg>(rccr-iter (ameliorer estimation x)</seg>
       </tuv>
     </tu>
     <tu>
@@ -726,10 +814,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(the y (and (&gt;= y 0)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140616T033302Z" creationid="suzume" creationdate="20140616T033302Z">
+        <seg>(pour y (and (&gt;= y 0)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>...</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140616T033336Z" creationid="suzume" creationdate="20140616T033336Z">
+        <seg>...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>0</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T133243Z" creationid="JC Helary" creationdate="20130707T133243Z">
         <seg>0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140616T033327Z" creationid="suzume" creationdate="20140616T033327Z">
+        <seg>1</seg>
       </tuv>
     </tu>
     <tu>
@@ -782,6 +894,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>1.1.7  Example: Square Roots by Newton's Method</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T133937Z" creationid="suzume" creationdate="20140613T133937Z">
+        <seg>1.1.7 Exemple : racine carrée selon la méthode de Newton</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1.1  The Elements of Programming</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T154432Z">
@@ -794,6 +914,30 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130625T132027Z" creationid="jchelary" creationdate="20130625T132027Z">
         <seg>1.2 Procédures et processus générés</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1.4142</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140616T033335Z" creationid="suzume" creationdate="20140616T033335Z">
+        <seg>1.4142</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1.4167</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140616T033332Z" creationid="suzume" creationdate="20140616T033332Z">
+        <seg>1.4167</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1.5</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140616T033330Z" creationid="suzume" creationdate="20140616T033330Z">
+        <seg>1.5</seg>
       </tuv>
     </tu>
     <tu>
@@ -1000,8 +1144,8 @@
       <tuv lang="EN-US">
         <seg>&lt;a0&gt;&lt;/a0&gt;&lt;a1&gt;&lt;/a1&gt;(Assume that the evaluation rule for the special form &lt;t2&gt;if&lt;/t2&gt; is the same whether the interpreter is using normal or applicative order: The predicate expression is evaluated first, and the result determines whether to evaluate the consequent or the alternative expression.)</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="yuuki" changedate="20140613T064157Z" creationid="yuuki" creationdate="20140613T064157Z">
-        <seg>testtesttesttest</seg>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T133916Z" creationid="suzume" creationdate="20140613T133916Z">
+        <seg>&lt;a0&gt;&lt;/a0&gt;&lt;a1&gt;&lt;/a1&gt;(Considérer que la règle d'évaluation de la forme spéciale &lt;t2&gt;if&lt;/t2&gt; est la même quelque soit l'ordre d'interprétation : l'expression prédicat est évaluée en premier et le résultat détermine s'il faut évaluer l'expression suivante ou l'expression alternative.) </seg>
       </tuv>
     </tu>
     <tu>
@@ -1214,6 +1358,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As a case in point, consider the problem of computing square roots.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T134149Z" creationid="suzume" creationdate="20140613T134149Z">
+        <seg>Comme exemple, considérez le problème du calcul de la racine carrée.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As a case in point, let us consider that, in evaluating combinations, the interpreter is itself following a procedure.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124543Z">
@@ -1262,6 +1414,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Average</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T135254Z" creationid="suzume" creationdate="20140613T135254Z">
+        <seg>Moyenne</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>But there is an important difference between mathematical functions and computer procedures.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T134107Z" creationid="suzume" creationdate="20140613T134107Z">
+        <seg>Mais il existe une différence importante entre les fonctions mathématiques et les procédures informatiques.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Cambridge, Massachusetts     London, England</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T154201Z">
@@ -1290,6 +1458,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T155128Z">
         <seg>Table des matières</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Continuing this process, we obtain better and better approximations to the square root.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T135359Z" creationid="suzume" creationdate="20140613T135359Z">
+        <seg>Continuer ce calcul nous permet d'obtenir une estimation toujours meilleure de la racine carrée.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1422,6 +1598,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Guess</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T135248Z" creationid="suzume" creationdate="20140613T135248Z">
+        <seg>Estimation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Harold Abelson and Gerald Jay Sussman</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T154109Z">
@@ -1458,6 +1642,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T111144Z" creationid="JC Helary" creationdate="20130706T111144Z">
         <seg>Voici encore une autre manière d'écrire la procédure valeur-absolue :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How does one compute square roots?</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T134906Z" creationid="suzume" creationdate="20140613T134906Z">
+        <seg>Comment calculer une racine carrée ?</seg>
       </tuv>
     </tu>
     <tu>
@@ -1534,6 +1726,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the guess is good enough for our purposes, we are done; if not, we must repeat the process with an improved guess.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T135558Z" creationid="suzume" creationdate="20140613T135558Z">
+        <seg>Si l'estimation est assez bonne pour nous, nous nous arrêtons là. Si non, nous répétons le procédé avec une estimation améliorée.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If we use the definition of &lt;t0&gt;square&lt;/t0&gt;, this reduces to</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T001105Z">
@@ -1554,6 +1754,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130514T063819Z">
         <seg>Imaginez-vous assis devant un ordinateur.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In &lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;mathematics we are usually concerned with declarative (what is) descriptions, whereas in computer science we are usually concerned with imperative (how to) descriptions.&lt;a4&gt;&lt;s5&gt;&lt;s6&gt;20&lt;/s6&gt;&lt;/s5&gt;&lt;/a4&gt;</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T134855Z" creationid="suzume" creationdate="20140613T134855Z">
+        <seg>En &lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;mathématiques nous nous occupons surtout de descriptions déclaratives (ce que c'est), alors qu'en informatique nous nous occupons surtout de descriptions impératives (comment on fait).</seg>
       </tuv>
     </tu>
     <tu>
@@ -1686,6 +1894,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Indeed, it tells us almost nothing about how to actually find the square root of a given number.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T134444Z" creationid="suzume" creationdate="20140613T134444Z">
+        <seg>En fait elle ne nous dit presque rien de la manière dont on trouve la racine carrée d'un nombre donné.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Indeed, one could not tell by looking at the definition of &lt;t0&gt;sum-of-squares&lt;/t0&gt; given above whether &lt;t1&gt;square&lt;/t1&gt; was built into the interpreter, like &lt;t2&gt;+&lt;/t2&gt; and &lt;t3&gt;*&lt;/t3&gt;, or defined as a compound procedure.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110833Z">
@@ -1738,6 +1954,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124216Z">
         <seg>Il est clair que la possibilité d'associer des valeurs à des symboles puis de les retrouver par la suite signifie que l'interpréteur doit entretenir une mémoire qui enregistre les paires nom-objet.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It will not help matters to rephrase this definition in pseudo-Lisp:</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T134512Z" creationid="suzume" creationdate="20140613T134512Z">
+        <seg>Et la reformulation en pseudo-lisp de la définition ne nous sera d'aucune aide :</seg>
       </tuv>
     </tu>
     <tu>
@@ -1822,6 +2046,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Now let's formalize the process in terms of procedures.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T135419Z" creationid="suzume" creationdate="20140613T135419Z">
+        <seg>Formalisons ce prcédé en terme de procédures.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Now we can use &lt;t0&gt;sum-of-squares&lt;/t0&gt; as a building block in constructing further procedures:</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110611Z">
@@ -1858,6 +2090,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T111629Z">
         <seg>Cependant, l'évaluation en ordre normal peut être un outil précieux et nous étudierons certaines de ses implications dans les chapitres 3 et 4.&lt;a2&gt;&lt;s3&gt;&lt;s4&gt;16&lt;/s4&gt;&lt;/s3&gt;&lt;/a2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On the other hand, the definition does not describe a procedure.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T134411Z" creationid="suzume" creationdate="20140613T134411Z">
+        <seg>Cependant, la définition ne décrit pas une procédure.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1918,6 +2158,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Procedures must be effective.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T134125Z" creationid="suzume" creationdate="20140613T134125Z">
+        <seg>Les procédures doivent être @@@.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Procedures, as introduced above, are much like ordinary mathematical functions.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T134019Z" creationid="suzume" creationdate="20140613T134019Z">
+        <seg>Les procédutes telles que nous les avons introduites ci-dessus sont similaires à des fonctions mathematiques ordinaires.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Quotient</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140616T033326Z" creationid="suzume" creationdate="20140616T033326Z">
+        <seg>Quotient</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Structure and Interpretation</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T154055Z">
@@ -1938,6 +2202,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T102708Z">
         <seg>Ce genre d'exceptions à la règle générale d'évaluation sont appelées des &lt;e0&gt;formes spéciales&lt;/e0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Suppose our initial guess is 1:</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T135240Z" creationid="suzume" creationdate="20140613T135240Z">
+        <seg>Supposons que notre estimation initiale est 1 :</seg>
       </tuv>
     </tu>
     <tu>
@@ -1994,6 +2266,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T023943Z" creationid="JC Helary" creationdate="20130706T110458Z">
         <seg>La procédure valeur-absolue &lt;t1&gt;abs&lt;/t1&gt; utilise les &lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;&lt;a4&gt;&lt;/a4&gt;&lt;a5&gt;&lt;/a5&gt;&lt;a6&gt;&lt;/a6&gt;&lt;a7&gt;&lt;/a7&gt;&lt;a8&gt;&lt;/a8&gt;&lt;a9&gt;&lt;/a9&gt;&lt;a10&gt;&lt;/a10&gt;propositions primitives &lt;t11&gt;&gt;&lt;/t11&gt;, &lt;t12&gt;&lt;&lt;/t12&gt; et &lt;t13&gt;=&lt;/t13&gt;.&lt;a14&gt;&lt;s15&gt;&lt;s16&gt;18&lt;/s16&gt;&lt;/s15&gt;&lt;/a14&gt; Ces propositions requièrent deux nombres comme arguments et vérifient si le premier nombre est respectivement supérieur, inférieur ou égal au second nombre, retournant vrai ou faux selon les cas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The contrast between function and procedure is a reflection of the general distinction between describing properties of things and describing how to do things, or, as it is sometimes referred to, the distinction between &lt;a0&gt;&lt;/a0&gt;&lt;a1&gt;&lt;/a1&gt;declarative knowledge and imperative knowledge.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T134738Z" creationid="suzume" creationdate="20140613T134738Z">
+        <seg>La différence entre une fonction et une procédure est le reflet de la distinction générale entre la description des propiétés d'un objet et la description de la méthode pour les obtenir, ou, comme on y fait souvant référence, la distinction entre &lt;a0&gt;&lt;/a0&gt;&lt;a1&gt;&lt;/a1&gt;un savoir déclaratif et savoir impératif.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2074,6 +2354,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T011427Z">
         <seg>L'élément le plus à gauche de la liste est appelé l'&lt;a3&gt;&lt;/a3&gt;&lt;e4&gt;opérateur&lt;/e4&gt; et les autres éléments sont appelés les &lt;a5&gt;&lt;/a5&gt;&lt;e6&gt;opérandes&lt;/e6&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The most common way is to use Newton's method of successive approximations, which says that whenever we have a guess &lt;e0&gt;y&lt;/e0&gt; for the value of the square root of a number &lt;e1&gt;x&lt;/e1&gt;, we can perform a simple manipulation to get a better guess (one closer to the actual square root) by averaging &lt;e2&gt;y&lt;/e2&gt; with &lt;e3&gt;x&lt;/e3&gt;/&lt;e4&gt;y&lt;/e4&gt;.&lt;a5&gt;&lt;s6&gt;&lt;s7&gt;21&lt;/s7&gt;&lt;/s6&gt;&lt;/a5&gt; For example, we can compute the square root of 2 as follows.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T135242Z" creationid="suzume" creationdate="20140613T135225Z">
+        <seg>La manière la plus commune est d'utiliser la méthode de Newton d'approximations successives qui dit que quand vous avez une estimation &lt;e0&gt;y&lt;/e0&gt; de la valeur de la racine carrée du nombre &lt;e1&gt;x&lt;/e1&gt; vous pouvez effectuer une manipulation simple pour obtenir une meilleure estimation (plus proche de la vraie racine carrée) en faisant la moyenne de &lt;e2&gt;y&lt;/e2&gt; et &lt;e3&gt;x&lt;/e3&gt;/&lt;e4&gt;y&lt;/e4&gt;.&lt;a5&gt;&lt;s6&gt;&lt;s7&gt;21&lt;/s7&gt;&lt;/s6&gt;&lt;/a5&gt; Par exemple, nous pouvons calculer la racine carrée de 2 de la manière suivante.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2206,6 +2494,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>They specify a value that is determined by one or more parameters.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T134039Z" creationid="suzume" creationdate="20140613T134039Z">
+        <seg>Elles spécifient une valeur déterminée par un ou plusieurs paramètres.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This alternative ``fully expand and then reduce'' evaluation method is known as &lt;a0&gt;&lt;/a0&gt;&lt;e1&gt;normal-order evaluation&lt;/e1&gt;, in contrast to the ``evaluate the arguments and then apply'' method that the interpreter actually uses, which is called &lt;a2&gt;&lt;/a2&gt;&lt;e3&gt;applicative-order evaluation&lt;/e3&gt;.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T110435Z">
@@ -2226,6 +2522,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T105238Z" creationid="JC Helary" creationdate="20130706T105238Z">
         <seg>Ce genre de construction est appelé une &lt;e0&gt;analyse de cas&lt;/e0&gt; et il existe une forme spéciale en Lisp pour les noter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This describes a perfectly legitimate mathematical function.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T134259Z" creationid="suzume" creationdate="20140613T134259Z">
+        <seg>Ceci décrit une fonction mathématique tout à fait légitime.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2430,6 +2734,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We can define the square-root function as</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T134213Z" creationid="suzume" creationdate="20140613T134213Z">
+        <seg>Nous pouvons définir la fonction racine-carrée de cette manière :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We can easily define a procedure &lt;t0&gt;sum-of-squares&lt;/t0&gt; that, given any two numbers as arguments, produces the sum of their squares:</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110432Z">
@@ -2458,6 +2770,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T104227Z">
         <seg>Nous pouvons comprendre ceci de la manière suivante :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We could use it to recognize whether one number is the square root of another, or to derive facts about square roots in general.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T134355Z" creationid="suzume" creationdate="20140613T134355Z">
+        <seg>Nous pourrions l'utiliser pour reconnaitre si un nombr donné est la racine carrée d'un autre, ou pour @@@ des faits au sujet des racines carrées en général.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2502,6 +2822,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We start with a value for the &lt;a0&gt;&lt;/a0&gt;radicand (the number whose square root we are trying to compute) and a value for the guess.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T135520Z" creationid="suzume" creationdate="20140613T135520Z">
+        <seg>Nous commençons avec une valeur pour le &lt;a0&gt;&lt;/a0&gt;@@@ (le nombre pour lequel nous cherchons la racine carrée) et une valeur pour l'estimation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We take care of the primitive cases by stipulating that</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130112Z">
@@ -2518,6 +2846,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We write this basic strategy as a procedure:</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T135615Z" creationid="suzume" creationdate="20140613T135615Z">
+        <seg>Cette stratégie de base s'écrit sous forme de procédure :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>What behavior will Ben observe with an interpreter that uses applicative-order evaluation?</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20140530T050429Z" creationid="jchelary" creationdate="20140530T050429Z">
@@ -2528,8 +2864,8 @@
       <tuv lang="EN-US">
         <seg>What behavior will he observe with an interpreter that uses normal-order evaluation?</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T062156Z" creationid="suzume" creationdate="20140613T062156Z">
-        <seg>＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠</seg>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T133653Z" creationid="suzume" creationdate="20140613T062156Z">
+        <seg>Quel comportement observera-il avec un interpréteur qui utilise l'ordre normal pour l'évaluation ?</seg>
       </tuv>
     </tu>
     <tu>
@@ -2658,6 +2994,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T154126Z">
         <seg>Avant-propos de Alan J. Perlis</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>guess</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140613T135704Z" creationid="suzume" creationdate="20140613T135704Z">
+        <seg>estimation</seg>
       </tuv>
     </tu>
     <tu>
@@ -2794,6 +3138,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T111151Z" creationid="JC Helary" creationdate="20130706T111151Z">
         <seg>x))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>x)))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="suzume" changedate="20140616T033246Z" creationid="suzume" creationdate="20140616T033246Z">
+        <seg>x)))</seg>
       </tuv>
     </tu>
     <tu>
