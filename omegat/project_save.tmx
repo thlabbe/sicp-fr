@@ -2454,6 +2454,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We can define the square-root function as</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T114514Z" creationid="T. Labbé" creationdate="20170330T114514Z">
+        <seg>Nous pouvons définir la fonction square-root telle que</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We can easily define a procedure &lt;t0&gt;sum-of-squares&lt;/t0&gt; that, given any two numbers as arguments, produces the sum of their squares:</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110432Z">
