@@ -1262,6 +1262,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>But there is an important difference between mathematical functions and computer procedures.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T114414Z" creationid="T. Labbé" creationdate="20170330T114414Z">
+        <seg>Mais il y a une importante différence entre les fonctions mathématiques et les procédures.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Cambridge, Massachusetts     London, England</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T154201Z">
