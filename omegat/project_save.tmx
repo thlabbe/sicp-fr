@@ -342,6 +342,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(/ (+ x y) 2))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T151624Z" creationid="T. Labbé" creationdate="20170330T151624Z">
+        <seg>(/ (+ x y) 2))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(/ 10 5)</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130515T011157Z">
@@ -530,6 +538,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T105317Z" creationid="JC Helary" creationdate="20130706T105317Z">
         <seg>(define (abs x)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(define (average x y)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T151615Z" creationid="T. Labbé" creationdate="20170330T151615Z">
+        <seg>(define (average x y)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2962,6 +2978,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T130241Z">
         <seg>la valeur des autres noms est les objets associés à ces noms dans l'environnement.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>where</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T151611Z" creationid="T. Labbé" creationdate="20170330T151611Z">
+        <seg>où</seg>
       </tuv>
     </tu>
     <tu>
