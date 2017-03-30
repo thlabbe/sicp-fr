@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.5.2" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.6.0_5_r9644:9647" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -778,6 +778,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T023549Z">
         <seg>1.1.6 Expressions conditionnelles et propositions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1.1.7  Example: Square Roots by Newton's Method</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T100959Z" creationid="T. Labbé" creationdate="20170330T100959Z">
+        <seg>1.1.7  Exemple: Racines Carrées par la Methode de Newton</seg>
       </tuv>
     </tu>
     <tu>
