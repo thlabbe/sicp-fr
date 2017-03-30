@@ -1918,6 +1918,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Procedures, as introduced above, are much like ordinary mathematical functions.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T114222Z" creationid="T. Labbé" creationdate="20170330T114222Z">
+        <seg>Les procédures, telles que présentées plus haut,sont similaires au fontions en matrhématiques.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Structure and Interpretation</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T154055Z">
@@ -2202,6 +2210,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130625T001023Z">
         <seg>Ces values sont substituées aux paramètres formels &lt;t4&gt;x&lt;/t4&gt; et &lt;t5&gt;y&lt;/t5&gt; dans le corps de &lt;t6&gt;somme-de-carrés&lt;/t6&gt; pour réduire l'expression à</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They specify a value that is determined by one or more parameters.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T114259Z" creationid="T. Labbé" creationdate="20170330T114259Z">
+        <seg>Elles spécifient une valeur qui est déterminée par un ou plusieurs paramètres.</seg>
       </tuv>
     </tu>
     <tu>
