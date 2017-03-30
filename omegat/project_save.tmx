@@ -2502,6 +2502,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We could use it to recognize whether one number is the square root of another, or to derive facts about square roots in general.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T114812Z" creationid="T. Labbé" creationdate="20170330T114812Z">
+        <seg>Nous pourrions l'utiliser pour savoir si un nombre est la racine carrée d'un autre, ou pour dériver des faits à propos des racines carrées en général.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We have here a &lt;e0&gt;compound procedure&lt;/e0&gt;, which has been given the name &lt;t1&gt;square&lt;/t1&gt;.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T104308Z">
