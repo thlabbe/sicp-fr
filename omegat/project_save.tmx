@@ -334,6 +334,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(2/1) = 2</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T150646Z" creationid="T. Labbé" creationdate="20170330T150646Z">
+        <seg>(2/1) = 2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(&lt;&lt;e0&gt;p&lt;s1&gt;2&lt;/s1&gt;&lt;/e0&gt;&gt; &lt;&lt;e2&gt;e&lt;s3&gt;2&lt;/s3&gt;&lt;/e2&gt;&gt;)</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T105342Z" creationid="JC Helary" creationdate="20130706T105342Z">
@@ -346,6 +354,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T105343Z" creationid="JC Helary" creationdate="20130706T105343Z">
         <seg>(&lt;&lt;e0&gt;p&lt;s1&gt;&lt;e2&gt;n&lt;/e2&gt;&lt;/s1&gt;&lt;/e0&gt;&gt; &lt;&lt;e3&gt;e&lt;s4&gt;&lt;e5&gt;n&lt;/e5&gt;&lt;/s4&gt;&lt;/e3&gt;&gt;))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(= (square y) x))))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T150500Z" creationid="T. Labbé" creationdate="20170330T150500Z">
+        <seg>(= (square y) x))))</seg>
       </tuv>
     </tu>
     <tu>
@@ -482,6 +498,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T133240Z" creationid="JC Helary" creationdate="20130707T133240Z">
         <seg>(define (p) (p))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(define (sqrt x)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T150432Z" creationid="T. Labbé" creationdate="20170330T150432Z">
+        <seg>(define (sqrt x)</seg>
       </tuv>
     </tu>
     <tu>
@@ -726,10 +750,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(the y (and (&gt;= y 0)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T150451Z" creationid="T. Labbé" creationdate="20170330T150451Z">
+        <seg>(the y (and (&gt;= y 0)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>0</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T133243Z" creationid="JC Helary" creationdate="20130707T133243Z">
         <seg>0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T150639Z" creationid="T. Labbé" creationdate="20170330T150639Z">
+        <seg>1</seg>
       </tuv>
     </tu>
     <tu>
