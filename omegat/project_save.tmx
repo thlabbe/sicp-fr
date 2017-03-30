@@ -2254,6 +2254,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This describes a perfectly legitimate mathematical function.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T114610Z" creationid="T. Labbé" creationdate="20170330T114610Z">
+        <seg>Cela décrit une fonction mathématique parfaitement légitime.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This feature encourages the &lt;a2&gt;&lt;/a2&gt;&lt;a3&gt;&lt;/a3&gt;incremental development and testing of programs and is largely responsible for the fact that &lt;a4&gt;&lt;/a4&gt;a Lisp program usually consists of a large number of relatively simple procedures.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T124053Z">
