@@ -462,6 +462,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(average guess (/ x guess)))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T151552Z" creationid="T. Labbé" creationdate="20170330T151552Z">
+        <seg>(average guess (/ x guess)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(cond ((&lt; x 0) (- x))</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T110526Z" creationid="JC Helary" creationdate="20130706T110526Z">
@@ -534,10 +542,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(define (improve guess x)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T151544Z" creationid="T. Labbé" creationdate="20170330T151544Z">
+        <seg>(define (improve guess x)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(define (p) (p))</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T133240Z" creationid="JC Helary" creationdate="20130707T133240Z">
         <seg>(define (p) (p))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(define (sqrt-iter guess x)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T151452Z" creationid="T. Labbé" creationdate="20170330T151452Z">
+        <seg>(define (sqrt-iter guess x)</seg>
       </tuv>
     </tu>
     <tu>
@@ -686,6 +710,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(if (good-enough? guess x)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T151506Z" creationid="T. Labbé" creationdate="20170330T151506Z">
+        <seg>(if (good-enough? guess x)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(if &lt;&lt;e0&gt;predicate&lt;/e0&gt;&gt; &lt;&lt;e1&gt;consequent&lt;/e1&gt;&gt; &lt;&lt;e2&gt;alternative&lt;/e2&gt;&gt;)</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T023950Z" creationid="JC Helary" creationdate="20130706T111304Z">
@@ -722,6 +754,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085306Z" creationid="JC Helary" creationdate="20130707T085306Z">
         <seg>(or (&gt; x y) (= x y)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(sqrt-iter (improve guess x)</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T151525Z" creationid="T. Labbé" creationdate="20170330T151525Z">
+        <seg>(sqrt-iter (improve guess x)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1658,6 +1698,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T024031Z" creationid="JC Helary" creationdate="20130706T111525Z">
         <seg>Si la &lt;&lt;e3&gt;proposition&lt;/e3&gt;&gt; s'évalue à une valeur vraie alors l'interpréteur évalue la &lt;a4&gt;&lt;/a4&gt;&lt;&lt;e5&gt;conséquence&lt;/e5&gt;&gt; et retourne sa valeur.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the guess is good enough for our purposes, we are done; if not, we must repeat the process with an improved guess.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T151358Z" creationid="T. Labbé" creationdate="20170330T151358Z">
+        <seg>Si le résultat est suffisemment correct pour nos besoins, nous avons fini; sinon, nous devons recommencer l'évaluation avec un résulat amélioré</seg>
       </tuv>
     </tu>
     <tu>
@@ -2702,6 +2750,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We write this basic strategy as a procedure:</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T151447Z" creationid="T. Labbé" creationdate="20170330T151447Z">
+        <seg>Nous ecrivons cette startégie basique comme une procédure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>What is the result printed by the interpreter in response to each expression?</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085419Z" creationid="JC Helary" creationdate="20130707T085419Z">
@@ -2826,6 +2882,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T154126Z">
         <seg>Avant-propos de Alan J. Perlis</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>guess</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T151516Z" creationid="T. Labbé" creationdate="20170330T151516Z">
+        <seg>guess</seg>
       </tuv>
     </tu>
     <tu>
@@ -2962,6 +3026,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130706T111151Z" creationid="JC Helary" creationdate="20130706T111151Z">
         <seg>x))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>x)))</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T151531Z" creationid="T. Labbé" creationdate="20170330T151531Z">
+        <seg>x)))</seg>
       </tuv>
     </tu>
     <tu>
