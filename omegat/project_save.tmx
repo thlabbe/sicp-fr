@@ -1870,6 +1870,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>On the other hand, the definition does not describe a procedure.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T114934Z" creationid="T. Labbé" creationdate="20170330T114934Z">
+        <seg>D'un autre coté, la définition ne décrit pas une procédure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>One easy way to get started at programming is to examine some typical interactions with an interpreter for the Scheme dialect of Lisp.</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130621T123601Z">
