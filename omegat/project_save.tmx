@@ -1950,6 +1950,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Now let's formalize the process in terms of procedures.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T151034Z" creationid="T. Labbé" creationdate="20170330T151034Z">
+        <seg>Maintenant formalison cette evaluation en termes de procédures</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Now we can use &lt;t0&gt;sum-of-squares&lt;/t0&gt; as a building block in constructing further procedures:</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130623T110611Z">
