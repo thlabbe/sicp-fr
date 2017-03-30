@@ -1720,8 +1720,8 @@
       <tuv lang="EN-US">
         <seg>If the guess is good enough for our purposes, we are done; if not, we must repeat the process with an improved guess.</seg>
       </tuv>
-      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T151358Z" creationid="T. Labbé" creationdate="20170330T151358Z">
-        <seg>Si le résultat est suffisemment correct pour nos besoins, nous avons fini; sinon, nous devons recommencer l'évaluation avec un résulat amélioré</seg>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T151927Z" creationid="T. Labbé" creationdate="20170330T151358Z">
+        <seg>Si l'estimation est suffisemment correcte pour nos besoins, nous avons fini; sinon, nous devons recommencer l'évaluation avec une estimation améliorée</seg>
       </tuv>
     </tu>
     <tu>
