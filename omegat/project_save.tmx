@@ -6,6 +6,30 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>((1.3333 + 1.5)/2) = 1.4167</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T150746Z" creationid="T. Labbé" creationdate="20170330T150746Z">
+        <seg>((1.3333 + 1.5)/2) = 1.4167</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>((1.4167 + 1.4118)/2) = 1.4142</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T150812Z" creationid="T. Labbé" creationdate="20170330T150812Z">
+        <seg>((1.4167 + 1.4118)/2) = 1.4142</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>((2 + 1)/2) = 1.5</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T150657Z" creationid="T. Labbé" creationdate="20170330T150657Z">
+        <seg>((2 + 1)/2) = 1.5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>((&lt; a b) b)</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T085502Z" creationid="JC Helary" creationdate="20130707T085502Z">
@@ -338,6 +362,22 @@
       </tuv>
       <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T150646Z" creationid="T. Labbé" creationdate="20170330T150646Z">
         <seg>(2/1) = 2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(2/1.4167) = 1.4118</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T150805Z" creationid="T. Labbé" creationdate="20170330T150805Z">
+        <seg>(2/1.4167) = 1.4118</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(2/1.5) = 1.3333</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T150734Z" creationid="T. Labbé" creationdate="20170330T150734Z">
+        <seg>(2/1.5) = 1.3333</seg>
       </tuv>
     </tu>
     <tu>
@@ -758,6 +798,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>...</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T150835Z" creationid="T. Labbé" creationdate="20170330T150835Z">
+        <seg>...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>0</seg>
       </tuv>
       <tuv lang="FR-FR" changeid="JC Helary" changedate="20130707T133243Z" creationid="JC Helary" creationdate="20130707T133243Z">
@@ -842,6 +890,30 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130625T132027Z" creationid="jchelary" creationdate="20130625T132027Z">
         <seg>1.2 Procédures et processus générés</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1.4142</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T150821Z" creationid="T. Labbé" creationdate="20170330T150821Z">
+        <seg>1.4142</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1.4167</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T150756Z" creationid="T. Labbé" creationdate="20170330T150756Z">
+        <seg>1.4167</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1.5</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T150710Z" creationid="T. Labbé" creationdate="20170330T150710Z">
+        <seg>1.5</seg>
       </tuv>
     </tu>
     <tu>
@@ -1338,6 +1410,14 @@
       </tuv>
       <tuv lang="FR-FR" changeid="jchelary" changedate="20130513T155128Z">
         <seg>Table des matières</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Continuing this process, we obtain better and better approximations to the square root.</seg>
+      </tuv>
+      <tuv lang="FR-FR" changeid="T. Labbé" changedate="20170330T150949Z" creationid="T. Labbé" creationdate="20170330T150949Z">
+        <seg>En continuant cette évaluation, nous obtenons une approximation de plus en plus fine de la racine carrée..</seg>
       </tuv>
     </tu>
     <tu>
